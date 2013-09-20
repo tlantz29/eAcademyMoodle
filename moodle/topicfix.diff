@@ -1,0 +1,202 @@
+From b1493595f82300753fe3e31bd8a67f17c1d89364 Mon Sep 17 00:00:00 2001
+From: mikehas <mikehas@gmail.com>
+Date: Fri, 16 Dec 2011 11:36:16 -0800
+Subject: [PATCH] MDL-27764 - Include section summaries option during import
+
+---
+ backup/moodle2/backup_root_task.class.php     |    7 +++
+ backup/moodle2/restore_root_task.class.php    |   11 ++++
+ backup/moodle2/restore_section_task.class.php |   23 +++++++++-
+ backup/moodle2/restore_settingslib.php        |    8 +++
+ backup/moodle2/restore_stepslib.php           |   63 +++++++++++++++++++++++++
+ lang/en/backup.php                            |    1 +
+ 6 files changed, 112 insertions(+), 1 deletions(-)
+
+diff --git a/backup/moodle2/backup_root_task.class.php b/backup/moodle2/backup_root_task.class.php
+index af710e1..9618e19 100644
+--- a/backup/moodle2/backup_root_task.class.php
++++ b/backup/moodle2/backup_root_task.class.php
+@@ -114,6 +114,13 @@ class backup_root_task extends backup_task {
+         $filters->set_ui(new backup_setting_ui_checkbox($filters, get_string('rootsettingfilters', 'backup')));
+         $this->add_setting($filters);
+         $this->converter_deps($filters, $converters);
++        
++        // Define section summaries (if performing import)
++        if ($this->plan->get_mode() == backup::MODE_IMPORT) {
++            $sectionsummaries = new backup_generic_setting('section_summaries', base_setting::IS_BOOLEAN, true);
++            $sectionsummaries->set_ui(new backup_setting_ui_checkbox($sectionsummaries, get_string('rootsettingsectionsummaries', 'backup')));
++            $this->add_setting($sectionsummaries);
++        }
+ 
+         // Define comments (dependent of users)
+         $comments = new backup_comments_setting('comments', base_setting::IS_BOOLEAN, true);
+diff --git a/backup/moodle2/restore_root_task.class.php b/backup/moodle2/restore_root_task.class.php
+index a5163e9..85e1610 100644
+--- a/backup/moodle2/restore_root_task.class.php
++++ b/backup/moodle2/restore_root_task.class.php
+@@ -169,6 +169,17 @@ class restore_root_task extends restore_task {
+         $filters->set_ui(new backup_setting_ui_checkbox($filters, get_string('rootsettingfilters', 'backup')));
+         $filters->get_ui()->set_changeable($changeable);
+         $this->add_setting($filters);
++        
++        // Define section summaries (true and changeable if mode is import )
++        $defaultvalue = false;                      // Safer default
++        $changeable = false;        
++        if (isset($rootsettings['section_summaries']) && $rootsettings['section_summaries']) { // Only enabled when importing
++            $defaultvalue = true;
++            $changeable = true;
++        }
++        $sectionsummaries = new restore_generic_setting('section_summaries', base_setting::IS_BOOLEAN, $defaultvalue);
++        $sectionsummaries->set_ui(new backup_setting_ui_checkbox($sectionsummaries, get_string('rootsettingsectionsummaries', 'backup')));
++        $this->add_setting($sectionsummaries);
+ 
+         // Define comments (dependent of users)
+         $defaultvalue = false;                      // Safer default
+diff --git a/backup/moodle2/restore_section_task.class.php b/backup/moodle2/restore_section_task.class.php
+index 5c03bcb..72860a4 100644
+--- a/backup/moodle2/restore_section_task.class.php
++++ b/backup/moodle2/restore_section_task.class.php
+@@ -76,7 +76,12 @@ class restore_section_task extends restore_task {
+             $this->get_target() == backup::TARGET_EXISTING_DELETING || $this->get_setting_value('overwrite_conf') == true) {
+             $this->add_step(new restore_section_structure_step('course_info', 'section.xml'));
+         }
+-
++        
++        // If summary_included is set to true, import the section summary.
++        if ($this->get_setting_value('summary_included')) {
++            $this->add_step(new restore_section_summary_structure_step('section_summary', 'section.xml'));
++        }
++        
+         // At the end, mark it as built
+         $this->built = true;
+     }
+@@ -182,5 +187,21 @@ class restore_section_task extends restore_task {
+         $users->add_dependency($section_userinfo);
+         // Look for "section_included" section setting
+         $section_included->add_dependency($section_userinfo);
++        
++        // Define summary_included. Dependent of:
++        // - section_included setting
++        $settingname = $settingprefix . 'summary_included';
++        $defaultvalue   = false;                      // Safer default
++        // If the plan's section_summaries setting is set to true, 
++        // then import this section summary.
++        if($this->plan->get_mode() == backup::MODE_IMPORT) {
++            if ($this->plan->get_setting('section_summaries')->get_value()){
++               $defaultvalue = true;
++            }
++        }
++        $section_summary_included = new restore_section_summary_setting($settingname, base_setting::IS_BOOLEAN, $defaultvalue, base_setting::HIDDEN );
++        $section_included->add_dependency($section_summary_included);
++        $this->add_setting($section_summary_included);
++        
+     }
+ }
+diff --git a/backup/moodle2/restore_settingslib.php b/backup/moodle2/restore_settingslib.php
+index 6d8b162..08d29f6 100644
+--- a/backup/moodle2/restore_settingslib.php
++++ b/backup/moodle2/restore_settingslib.php
+@@ -129,6 +129,14 @@ class restore_section_included_setting extends restore_section_generic_setting {
+ class restore_section_userinfo_setting extends restore_section_generic_setting {}
+ 
+ 
++// Section summary restore settings
++
++/**
++ * section summary restore setting
++ */
++class restore_section_summary_setting extends restore_section_generic_setting {}
++
++
+ // Activity backup settings
+ 
+ /**
+diff --git a/backup/moodle2/restore_stepslib.php b/backup/moodle2/restore_stepslib.php
+index f83b7c3..781b821 100644
+--- a/backup/moodle2/restore_stepslib.php
++++ b/backup/moodle2/restore_stepslib.php
+@@ -1066,6 +1066,69 @@ class restore_section_structure_step extends restore_structure_step {
+ }
+ 
+ 
++
++
++
++
++/**
++ * Structure step that will read the section.xml creating/updating section
++ * summaries as needed.
++ */
++class restore_section_summary_structure_step extends restore_structure_step {
++
++    protected function define_structure() {
++        $section = new restore_path_element('section', '/section');
++
++        // Apply for 'format' plugins optional paths at section level
++        $this->add_plugin_structure('format', $section);
++
++        return array($section);
++    }
++
++    public function process_section($data) {
++        global $DB;
++        $data = (object)$data;
++        $oldid = $data->id; // We'll need this later
++
++        $restorefiles = false;
++
++        // Look for the section
++        $section = new stdclass();
++        $section->course  = $this->get_courseid();
++        $section->section = $data->number;
++
++
++        // If section exists, update summary information
++        if ($secrec = $DB->get_record('course_sections', (array)$section)) {
++            $section->id = $secrec->id;
++            if (empty($secrec->name)) {
++                $section->name = $data->name;
++            }
++            if (empty($secrec->summary)) {
++                $section->summary = $data->summary;
++                $section->summaryformat = $data->summaryformat;
++                $restorefiles = true;
++            }
++            $DB->update_record('course_sections', $section);
++            $newitemid = $secrec->id;
++        }
++
++        // Annotate the section mapping, with restorefiles option if needed
++        $this->set_mapping('course_section', $oldid, $newitemid, $restorefiles);
++
++        // set the new course_section id in the task
++        $this->task->set_sectionid($newitemid);
++    }
++
++    protected function after_execute() {
++        // Add section related files, with 'course_section' itemid to match
++        $this->add_related_files('course', 'section', 'course_section');
++    }
++}
++
++
++
++
+ /**
+  * Structure step that will read the course.xml file, loading it and performing
+  * various actions depending of the site/restore settings. Note that target
+diff --git a/lang/en/backup.php b/lang/en/backup.php
+index 0b9bc61..62d547d 100644
+--- a/lang/en/backup.php
++++ b/lang/en/backup.php
+@@ -202,6 +202,7 @@ $string['rootsettinguserfiles'] = 'Include user files';
+ $string['rootsettingactivities'] = 'Include activities';
+ $string['rootsettingblocks'] = 'Include blocks';
+ $string['rootsettingfilters'] = 'Include filters';
++$string['rootsettingsectionsummaries'] = 'Include section summaries';
+ $string['rootsettingcomments'] = 'Include comments';
+ $string['rootsettinguserscompletion'] = 'Include user completion details';
+ $string['rootsettinglogs'] = 'Include course logs';
+-- 
+1.7.4
+
