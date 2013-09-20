@@ -13,6 +13,6 @@
 <?php
 
 require_once("kd_xmlrpc.php");
-$site = "opensis-2012.wiueacademy.org";
+$site = "opensis.wiueacademy.org";
 $location = "/xmlrpc/client.php";
 ?>

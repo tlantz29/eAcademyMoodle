@@ -1,0 +1,7 @@
+[11-Sep-2012 18:31:47] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[08-Oct-2012 19:03:17] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 23:06:19] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[26-Oct-2012 15:19:13] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[26-Oct-2012 15:19:13] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Nov-2012 15:02:25] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723

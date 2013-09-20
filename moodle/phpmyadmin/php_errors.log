@@ -1,0 +1,7 @@
+[30-Jan-2013 17:10:35] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in D:\server\moodle\phpmyadmin\libraries\dbi\mysqli.dbi.lib.php on line 199
+[04-Feb-2013 20:11:28] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 558294171 bytes) in D:\server\moodle\phpmyadmin\libraries\zip_extension.lib.php on line 60
+[04-Feb-2013 20:11:41] PHP Fatal error:  Allowed memory size of 1073741824 bytes exhausted (tried to allocate 558294171 bytes) in D:\server\moodle\phpmyadmin\libraries\zip_extension.lib.php on line 60
+[15-Feb-2013 19:22:51] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in D:\server\moodle\phpmyadmin\libraries\dbi\mysqli.dbi.lib.php on line 199
+[29-Aug-2013 20:26:02] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 1358299 bytes) in D:\server\moodle\phpmyadmin\libraries\session.inc.php on line 92
+[29-Aug-2013 20:26:02] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 6040712 bytes) in D:\server\moodle\phpmyadmin\libraries\session.inc.php on line 92
+[29-Aug-2013 20:26:02] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 6040712 bytes) in D:\server\moodle\phpmyadmin\libraries\session.inc.php on line 92

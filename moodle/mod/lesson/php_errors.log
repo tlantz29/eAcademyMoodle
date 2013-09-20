@@ -1,0 +1,236 @@
+[17-Sep-2012 16:37:18] Default exception handler: Authentication plugin mnet not found. Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 3469 of \lib\moodlelib.php: call to print_error()
+* line 3644 of \lib\navigationlib.php: call to get_auth_plugin()
+* line 3512 of \lib\navigationlib.php: call to settings_navigation->generate_user_settings()
+* line 2877 of \lib\navigationlib.php: call to settings_navigation->load_user_settings()
+* line 601 of \lib\pagelib.php: call to settings_navigation->initialise()
+* line 617 of \lib\pagelib.php: call to moodle_page->magic_get_settingsnav()
+* line 132 of \blocks\settings\block_settings.php: call to moodle_page->__get()
+* line 280 of \blocks\moodleblock.class.php: call to block_settings->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 349 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 9 of \theme\formal_white\layout\general.php: call to block_manager->region_has_content()
+* line 685 of \lib\outputrenderers.php: call to include()
+* line 637 of \lib\outputrenderers.php: call to core_renderer->render_page_layout()
+* line 52 of \mod\lesson\renderer.php: call to core_renderer->header()
+* line 392 of \mod\lesson\view.php: call to mod_lesson_renderer->header()
+
+[17-Sep-2012 16:37:19] Default exception handler: Could not find lesson pages Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 2683 of \mod\lesson\locallib.php: call to print_error()
+* line 1305 of \mod\lesson\locallib.php: call to lesson_page_type_manager->load_page()
+* line 281 of \mod\lesson\view.php: call to lesson->load_page()
+
+[17-Sep-2012 16:37:22] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:26] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:31] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:39] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:43] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:43] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:50] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:52] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:53] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:53] Default exception handler: Could not find lesson pages Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 2683 of \mod\lesson\locallib.php: call to print_error()
+* line 1305 of \mod\lesson\locallib.php: call to lesson_page_type_manager->load_page()
+* line 281 of \mod\lesson\view.php: call to lesson->load_page()
+
+[17-Sep-2012 16:37:53] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:54] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:55] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:56] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:57] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:59] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:00] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:01] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:03] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:04] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:05] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:06] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:07] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:08] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:11] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:16] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:18] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:39:30] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:39:44] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:44:00] Default exception handler: Could not find lesson pages Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 2683 of \mod\lesson\locallib.php: call to print_error()
+* line 1305 of \mod\lesson\locallib.php: call to lesson_page_type_manager->load_page()
+* line 281 of \mod\lesson\view.php: call to lesson->load_page()
+
+[17-Sep-2012 16:44:54] Default exception handler: Could not find lesson pages Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 2683 of \mod\lesson\locallib.php: call to print_error()
+* line 1305 of \mod\lesson\locallib.php: call to lesson_page_type_manager->load_page()
+* line 281 of \mod\lesson\view.php: call to lesson->load_page()
+
+[17-Sep-2012 16:46:49] Default exception handler: Could not find lesson pages Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 2683 of \mod\lesson\locallib.php: call to print_error()
+* line 1305 of \mod\lesson\locallib.php: call to lesson_page_type_manager->load_page()
+* line 281 of \mod\lesson\view.php: call to lesson->load_page()
+
+[17-Sep-2012 16:53:53] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[17-Sep-2012 16:55:42] Default exception handler: Could not find lesson pages Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 2683 of \mod\lesson\locallib.php: call to print_error()
+* line 1305 of \mod\lesson\locallib.php: call to lesson_page_type_manager->load_page()
+* line 281 of \mod\lesson\view.php: call to lesson->load_page()
+
+[17-Sep-2012 19:54:54] Default exception handler: Could not find lesson pages Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 2683 of \mod\lesson\locallib.php: call to print_error()
+* line 1305 of \mod\lesson\locallib.php: call to lesson_page_type_manager->load_page()
+* line 281 of \mod\lesson\view.php: call to lesson->load_page()
+
+[17-Sep-2012 19:55:28] Default exception handler: Could not find lesson pages Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 2683 of \mod\lesson\locallib.php: call to print_error()
+* line 1305 of \mod\lesson\locallib.php: call to lesson_page_type_manager->load_page()
+* line 281 of \mod\lesson\view.php: call to lesson->load_page()
+
+[18-Sep-2012 14:21:18] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[18-Sep-2012 14:23:38] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[18-Sep-2012 14:25:13] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[18-Sep-2012 14:25:42] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[02-Oct-2012 15:03:55] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[02-Oct-2012 15:40:07] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[02-Oct-2012 16:01:20] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[02-Oct-2012 19:36:04] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[02-Oct-2012 19:50:47] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[03-Oct-2012 13:35:27] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[03-Oct-2012 13:43:13] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[03-Oct-2012 14:01:33] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[03-Oct-2012 14:52:41] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[03-Oct-2012 15:06:13] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[03-Oct-2012 17:40:50] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[03-Oct-2012 19:39:57] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[03-Oct-2012 19:47:26] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[04-Oct-2012 13:17:36] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[04-Oct-2012 13:27:09] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[04-Oct-2012 13:27:17] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[04-Oct-2012 14:22:37] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[04-Oct-2012 15:12:34] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[04-Oct-2012 15:28:08] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[04-Oct-2012 17:34:41] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[04-Oct-2012 19:33:44] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[05-Oct-2012 13:22:52] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+
+[05-Oct-2012 13:28:21] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 31 of \mod\lesson\continue.php: call to required_param()
+

@@ -1,0 +1,213 @@
+[17-Jun-2013 13:56:41] Default exception handler: error/cannot_finish_ui_if_not_setting_ui Debug: 
+* line 161 of \backup\controller\backup_controller.class.php: backup_controller_exception thrown
+* line 110 of \backup\util\ui\backup_ui.class.php: call to backup_controller->finish_ui()
+* line 89 of \backup\backup.php: call to backup_ui->execute()
+
+[18-Jun-2013 20:47:35] Default exception handler: Can not read file, either file does not exist or there are permission problems Debug: D:\server\moodledata_running/temp/backup/ebdfd4545b736b14c2c0d48c3af79154/backup.mbz
+* line 1106 of \lib\filestorage\file_storage.php: file_exception thrown
+* line 845 of \lib\filestorage\file_storage.php: call to file_storage->add_file_to_pool()
+* line 278 of \backup\util\helper\backup_helper.class.php: call to file_storage->create_file_from_pathname()
+* line 1544 of \backup\moodle2\backup_stepslib.php: call to backup_helper::store_backup_file()
+* line 34 of \backup\util\plan\backup_execution_step.class.php: call to backup_store_backup_file->define_execution()
+* line 153 of \backup\util\plan\base_task.class.php: call to backup_execution_step->execute()
+* line 148 of \backup\util\plan\base_plan.class.php: call to base_task->execute()
+* line 105 of \backup\util\plan\backup_plan.class.php: call to base_plan->execute()
+* line 296 of \backup\controller\backup_controller.class.php: call to backup_plan->execute()
+* line 111 of \backup\util\ui\backup_ui.class.php: call to backup_controller->execute_plan()
+* line 89 of \backup\backup.php: call to backup_ui->execute()
+
+[19-Jun-2013 12:48:40] Default exception handler: Can not read file, either file does not exist or there are permission problems Debug: D:\server\moodledata_running/temp/backup/8bcc78c3ee92c31fbc06a6beaa850eeb/backup.mbz
+* line 1106 of \lib\filestorage\file_storage.php: file_exception thrown
+* line 845 of \lib\filestorage\file_storage.php: call to file_storage->add_file_to_pool()
+* line 278 of \backup\util\helper\backup_helper.class.php: call to file_storage->create_file_from_pathname()
+* line 1544 of \backup\moodle2\backup_stepslib.php: call to backup_helper::store_backup_file()
+* line 34 of \backup\util\plan\backup_execution_step.class.php: call to backup_store_backup_file->define_execution()
+* line 153 of \backup\util\plan\base_task.class.php: call to backup_execution_step->execute()
+* line 148 of \backup\util\plan\base_plan.class.php: call to base_task->execute()
+* line 105 of \backup\util\plan\backup_plan.class.php: call to base_plan->execute()
+* line 296 of \backup\controller\backup_controller.class.php: call to backup_plan->execute()
+* line 111 of \backup\util\ui\backup_ui.class.php: call to backup_controller->execute_plan()
+* line 89 of \backup\backup.php: call to backup_ui->execute()
+
+[19-Jun-2013 13:44:52] Default exception handler: Can not read file, either file does not exist or there are permission problems Debug: D:\server\moodledata_running/temp/backup/08784ff4d2cc04eacec6d56addccbd89/backup.mbz
+* line 1106 of \lib\filestorage\file_storage.php: file_exception thrown
+* line 845 of \lib\filestorage\file_storage.php: call to file_storage->add_file_to_pool()
+* line 278 of \backup\util\helper\backup_helper.class.php: call to file_storage->create_file_from_pathname()
+* line 1544 of \backup\moodle2\backup_stepslib.php: call to backup_helper::store_backup_file()
+* line 34 of \backup\util\plan\backup_execution_step.class.php: call to backup_store_backup_file->define_execution()
+* line 153 of \backup\util\plan\base_task.class.php: call to backup_execution_step->execute()
+* line 148 of \backup\util\plan\base_plan.class.php: call to base_task->execute()
+* line 105 of \backup\util\plan\backup_plan.class.php: call to base_plan->execute()
+* line 296 of \backup\controller\backup_controller.class.php: call to backup_plan->execute()
+* line 111 of \backup\util\ui\backup_ui.class.php: call to backup_controller->execute_plan()
+* line 89 of \backup\backup.php: call to backup_ui->execute()
+
+[19-Jun-2013 14:10:59] Default exception handler: Can not read file, either file does not exist or there are permission problems Debug: D:\server\moodledata_running/temp/backup/44e0ed8528c2835a8c408383506a14c6/backup.mbz
+* line 1106 of \lib\filestorage\file_storage.php: file_exception thrown
+* line 845 of \lib\filestorage\file_storage.php: call to file_storage->add_file_to_pool()
+* line 278 of \backup\util\helper\backup_helper.class.php: call to file_storage->create_file_from_pathname()
+* line 1544 of \backup\moodle2\backup_stepslib.php: call to backup_helper::store_backup_file()
+* line 34 of \backup\util\plan\backup_execution_step.class.php: call to backup_store_backup_file->define_execution()
+* line 153 of \backup\util\plan\base_task.class.php: call to backup_execution_step->execute()
+* line 148 of \backup\util\plan\base_plan.class.php: call to base_task->execute()
+* line 105 of \backup\util\plan\backup_plan.class.php: call to base_plan->execute()
+* line 296 of \backup\controller\backup_controller.class.php: call to backup_plan->execute()
+* line 111 of \backup\util\ui\backup_ui.class.php: call to backup_controller->execute_plan()
+* line 89 of \backup\backup.php: call to backup_ui->execute()
+
+[20-Jun-2013 16:00:45] Default exception handler: Error writing to database Debug: Field 'sis_school_id' doesn't have a default value
+INSERT INTO mdl_groups (name,description,descriptionformat,enrolmentkey,picture,hidepicture,timecreated,timemodified,courseid) VALUES(?,?,?,?,?,?,?,?,?)
+[array (
+  0 => 'CAD 1 - Period 1a',
+  1 => '',
+  2 => '1',
+  3 => '',
+  4 => '0',
+  5 => '0',
+  6 => '1346323457',
+  7 => '1346760526',
+  8 => 1164,
+)]
+* line 397 of \lib\dml\moodle_database.php: dml_write_exception thrown
+* line 893 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 935 of \lib\dml\mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 740 of \backup\moodle2\restore_stepslib.php: call to mysqli_native_moodle_database->insert_record()
+* line 131 of \backup\util\plan\restore_structure_step.class.php: call to restore_groups_structure_step->process_group()
+* line 103 of \backup\util\helper\restore_structure_parser_processor.class.php: call to restore_structure_step->process()
+* line 125 of \backup\util\xml\parser\processors\grouped_parser_processor.class.php: call to restore_structure_parser_processor->dispatch_chunk()
+* line 91 of \backup\util\helper\restore_structure_parser_processor.class.php: call to grouped_parser_processor->postprocess_chunk()
+* line 148 of \backup\util\xml\parser\processors\simplified_parser_processor.class.php: call to restore_structure_parser_processor->postprocess_chunk()
+* line 92 of \backup\util\xml\parser\processors\progressive_parser_processor.class.php: call to simplified_parser_processor->process_chunk()
+* line 169 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser_processor->receive_chunk()
+* line 253 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser->publish()
+* line ? of unknownfile: call to progressive_parser->end_tag()
+* line 158 of \backup\util\xml\parser\progressive_parser.class.php: call to xml_parse()
+* line 137 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser->parse()
+* line 105 of \backup\util\plan\restore_structure_step.class.php: call to progressive_parser->process()
+* line 153 of \backup\util\plan\base_task.class.php: call to restore_structure_step->execute()
+* line 148 of \backup\util\plan\base_plan.class.php: call to base_task->execute()
+* line 157 of \backup\util\plan\restore_plan.class.php: call to base_plan->execute()
+* line 302 of \backup\controller\restore_controller.class.php: call to restore_plan->execute()
+* line 147 of \backup\util\ui\restore_ui.class.php: call to restore_controller->execute_plan()
+* line 46 of \backup\restore.php: call to restore_ui->execute()
+
+[20-Jun-2013 16:17:45] Default exception handler: Error writing to database Debug: Field 'sis_school_id' doesn't have a default value
+INSERT INTO mdl_groups (name,description,descriptionformat,enrolmentkey,picture,hidepicture,timecreated,timemodified,courseid) VALUES(?,?,?,?,?,?,?,?,?)
+[array (
+  0 => 'CAD 1 - Period 1a',
+  1 => '',
+  2 => '1',
+  3 => '',
+  4 => '0',
+  5 => '0',
+  6 => '1346323457',
+  7 => '1346760526',
+  8 => 1164,
+)]
+* line 397 of \lib\dml\moodle_database.php: dml_write_exception thrown
+* line 893 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 935 of \lib\dml\mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 740 of \backup\moodle2\restore_stepslib.php: call to mysqli_native_moodle_database->insert_record()
+* line 131 of \backup\util\plan\restore_structure_step.class.php: call to restore_groups_structure_step->process_group()
+* line 103 of \backup\util\helper\restore_structure_parser_processor.class.php: call to restore_structure_step->process()
+* line 125 of \backup\util\xml\parser\processors\grouped_parser_processor.class.php: call to restore_structure_parser_processor->dispatch_chunk()
+* line 91 of \backup\util\helper\restore_structure_parser_processor.class.php: call to grouped_parser_processor->postprocess_chunk()
+* line 148 of \backup\util\xml\parser\processors\simplified_parser_processor.class.php: call to restore_structure_parser_processor->postprocess_chunk()
+* line 92 of \backup\util\xml\parser\processors\progressive_parser_processor.class.php: call to simplified_parser_processor->process_chunk()
+* line 169 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser_processor->receive_chunk()
+* line 253 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser->publish()
+* line ? of unknownfile: call to progressive_parser->end_tag()
+* line 158 of \backup\util\xml\parser\progressive_parser.class.php: call to xml_parse()
+* line 137 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser->parse()
+* line 105 of \backup\util\plan\restore_structure_step.class.php: call to progressive_parser->process()
+* line 153 of \backup\util\plan\base_task.class.php: call to restore_structure_step->execute()
+* line 148 of \backup\util\plan\base_plan.class.php: call to base_task->execute()
+* line 157 of \backup\util\plan\restore_plan.class.php: call to base_plan->execute()
+* line 302 of \backup\controller\restore_controller.class.php: call to restore_plan->execute()
+* line 147 of \backup\util\ui\restore_ui.class.php: call to restore_controller->execute_plan()
+* line 46 of \backup\restore.php: call to restore_ui->execute()
+
+[20-Jun-2013 16:37:54] Default exception handler: Error writing to database Debug: Field 'sis_school_id' doesn't have a default value
+INSERT INTO mdl_groups (name,description,descriptionformat,enrolmentkey,picture,hidepicture,timecreated,timemodified,courseid) VALUES(?,?,?,?,?,?,?,?,?)
+[array (
+  0 => 'CAD 1 - Period 1a',
+  1 => '',
+  2 => '1',
+  3 => '',
+  4 => '0',
+  5 => '0',
+  6 => '1346323457',
+  7 => '1346760526',
+  8 => 1164,
+)]
+* line 397 of \lib\dml\moodle_database.php: dml_write_exception thrown
+* line 893 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 935 of \lib\dml\mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 740 of \backup\moodle2\restore_stepslib.php: call to mysqli_native_moodle_database->insert_record()
+* line 131 of \backup\util\plan\restore_structure_step.class.php: call to restore_groups_structure_step->process_group()
+* line 103 of \backup\util\helper\restore_structure_parser_processor.class.php: call to restore_structure_step->process()
+* line 125 of \backup\util\xml\parser\processors\grouped_parser_processor.class.php: call to restore_structure_parser_processor->dispatch_chunk()
+* line 91 of \backup\util\helper\restore_structure_parser_processor.class.php: call to grouped_parser_processor->postprocess_chunk()
+* line 148 of \backup\util\xml\parser\processors\simplified_parser_processor.class.php: call to restore_structure_parser_processor->postprocess_chunk()
+* line 92 of \backup\util\xml\parser\processors\progressive_parser_processor.class.php: call to simplified_parser_processor->process_chunk()
+* line 169 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser_processor->receive_chunk()
+* line 253 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser->publish()
+* line ? of unknownfile: call to progressive_parser->end_tag()
+* line 158 of \backup\util\xml\parser\progressive_parser.class.php: call to xml_parse()
+* line 137 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser->parse()
+* line 105 of \backup\util\plan\restore_structure_step.class.php: call to progressive_parser->process()
+* line 153 of \backup\util\plan\base_task.class.php: call to restore_structure_step->execute()
+* line 148 of \backup\util\plan\base_plan.class.php: call to base_task->execute()
+* line 157 of \backup\util\plan\restore_plan.class.php: call to base_plan->execute()
+* line 302 of \backup\controller\restore_controller.class.php: call to restore_plan->execute()
+* line 147 of \backup\util\ui\restore_ui.class.php: call to restore_controller->execute_plan()
+* line 46 of \backup\restore.php: call to restore_ui->execute()
+
+[26-Jun-2013 16:15:34] Default exception handler: Error writing to database Debug: Field 'sis_school_id' doesn't have a default value
+INSERT INTO mdl_groups (name,description,descriptionformat,enrolmentkey,picture,hidepicture,timecreated,timemodified,courseid) VALUES(?,?,?,?,?,?,?,?,?)
+[array (
+  0 => 'CAD 1 - Period 1a',
+  1 => '',
+  2 => '1',
+  3 => '',
+  4 => '0',
+  5 => '0',
+  6 => '1346323457',
+  7 => '1346760526',
+  8 => 1164,
+)]
+* line 397 of \lib\dml\moodle_database.php: dml_write_exception thrown
+* line 893 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 935 of \lib\dml\mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 740 of \backup\moodle2\restore_stepslib.php: call to mysqli_native_moodle_database->insert_record()
+* line 131 of \backup\util\plan\restore_structure_step.class.php: call to restore_groups_structure_step->process_group()
+* line 103 of \backup\util\helper\restore_structure_parser_processor.class.php: call to restore_structure_step->process()
+* line 125 of \backup\util\xml\parser\processors\grouped_parser_processor.class.php: call to restore_structure_parser_processor->dispatch_chunk()
+* line 91 of \backup\util\helper\restore_structure_parser_processor.class.php: call to grouped_parser_processor->postprocess_chunk()
+* line 148 of \backup\util\xml\parser\processors\simplified_parser_processor.class.php: call to restore_structure_parser_processor->postprocess_chunk()
+* line 92 of \backup\util\xml\parser\processors\progressive_parser_processor.class.php: call to simplified_parser_processor->process_chunk()
+* line 169 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser_processor->receive_chunk()
+* line 253 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser->publish()
+* line ? of unknownfile: call to progressive_parser->end_tag()
+* line 158 of \backup\util\xml\parser\progressive_parser.class.php: call to xml_parse()
+* line 137 of \backup\util\xml\parser\progressive_parser.class.php: call to progressive_parser->parse()
+* line 105 of \backup\util\plan\restore_structure_step.class.php: call to progressive_parser->process()
+* line 153 of \backup\util\plan\base_task.class.php: call to restore_structure_step->execute()
+* line 148 of \backup\util\plan\base_plan.class.php: call to base_task->execute()
+* line 157 of \backup\util\plan\restore_plan.class.php: call to base_plan->execute()
+* line 302 of \backup\controller\restore_controller.class.php: call to restore_plan->execute()
+* line 147 of \backup\util\ui\restore_ui.class.php: call to restore_controller->execute_plan()
+* line 46 of \backup\restore.php: call to restore_ui->execute()
+
+[27-Jun-2013 14:09:55] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN
+[01-Jul-2013 16:12:42] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN
+[15-Jul-2013 18:27:09] Can not obtain session lock
+[15-Jul-2013 18:28:39] Can not obtain session lock
+[15-Jul-2013 19:55:18] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 3802 bytes) in D:\server\moodle\backup\util\xml\output\xml_output.class.php on line 117
+[06-Aug-2013 16:22:38] Orphan course module (id: 38068) found. This module will not be backed up.
+[29-Aug-2013 19:27:23] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:27:23] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:02] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:02] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296

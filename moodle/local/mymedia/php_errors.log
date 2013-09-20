@@ -1,0 +1,7 @@
+[06-Jun-2013 16:32:00] PHP Parse error:  syntax error, unexpected $end in D:\server\moodle\local\mymedia\delete_video.php on line 27
+[06-Jun-2013 16:32:30] PHP Parse error:  syntax error, unexpected $end in D:\server\moodle\local\mymedia\delete_video.php on line 27
+[06-Jun-2013 16:33:25] PHP Fatal error:  Cannot redeclare local_kaltura_delete_video() (previously declared in D:\server\moodle\local\mymedia\delete_video.php:26) in D:\server\moodle\local\kaltura\locallib.php on line 1681
+[06-Jun-2013 18:15:25] PHP Parse error:  syntax error, unexpected T_VAR in D:\server\moodle\local\mymedia\delete_video.php on line 49
+[06-Jun-2013 18:19:32] PHP Parse error:  syntax error, unexpected '<' in D:\server\moodle\local\mymedia\delete_video.php on line 47
+[06-Jun-2013 18:20:19] PHP Parse error:  syntax error, unexpected '<' in D:\server\moodle\local\mymedia\delete_video.php on line 47
+[06-Jun-2013 19:03:02] PHP Parse error:  syntax error, unexpected $end in D:\server\moodle\local\mymedia\delete_video.php on line 98

@@ -1,0 +1,9 @@
+[08-Oct-2012 14:44:53] Default exception handler: Can not find data record in database table user_enrolments. Debug: SELECT * FROM {user_enrolments} WHERE id = ?
+[array (
+  0 => 11429,
+)]
+* line 1308 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1285 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 35 of \enrol\self\unenroluser.php: call to moodle_database->get_record()
+
+[08-Oct-2012 16:02:56] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296

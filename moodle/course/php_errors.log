@@ -1,0 +1,326 @@
+﻿[27-Aug-2013 17:23:34] PHP Notice:  Use of undefined constant assign - assumed 'assign' in D:\server\moodle\xmlrpc\assignment_grade.php on line 42
+[27-Aug-2013 17:23:39] PHP Warning:  include(D:\server\moodle/mod/wiziq/wiziqconf.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in D:\server\moodle\blocks\wiziqlive\settings.php on line 14
+[27-Aug-2013 17:23:39] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'D:\server\moodle/mod/wiziq/wiziqconf.php' for inclusion (include_path='D:\server\moodle/lib/zend;D:\server\moodle/lib/pear;.;D:\server\php\PEAR') in D:\server\moodle\blocks\wiziqlive\settings.php on line 14
+[27-Aug-2013 17:23:39] PHP Notice:  Undefined variable: ConfigFile in D:\server\moodle\blocks\wiziqlive\settings.php on line 15
+[27-Aug-2013 17:23:39] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Filename cannot be empty in D:\server\moodle\blocks\wiziqlive\settings.php on line 15
+[27-Aug-2013 17:23:39] PHP Warning:  DOMDocument::loadXML() [<a href='domdocument.loadxml'>domdocument.loadxml</a>]: Empty string supplied as input in D:\server\moodle\blocks\wiziqlive\settings.php on line 28
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 48
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 49
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 50
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 51
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 52
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 53
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 54
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 55
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 56
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 57
+[27-Aug-2013 17:23:39] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\wiziqlive\settings.php on line 58
+[27-Aug-2013 17:23:39] PHP Notice:  Undefined variable: customer_email in D:\server\moodle\blocks\wiziqlive\settings.php on line 69
+[27-Aug-2013 17:23:39] PHP Notice:  Undefined variable: customer_key in D:\server\moodle\blocks\wiziqlive\settings.php on line 70
+[27-Aug-2013 17:23:39] PHP Notice:  Undefined variable: customer_email in D:\server\moodle\blocks\wiziqlive\settings.php on line 83
+[27-Aug-2013 17:23:39] PHP Notice:  Undefined variable: customer_key in D:\server\moodle\blocks\wiziqlive\settings.php on line 86
+[27-Aug-2013 19:49:50] AJAX commands.php: Bad course module ID 4004
+[27-Aug-2013 19:50:04] AJAX rest.php: Bad course module ID 4004
+[29-Aug-2013 16:06:41] AJAX rest.php: Bad course module ID 95772
+[29-Aug-2013 18:19:00] AJAX rest.php: Bad course module ID 21510
+[29-Aug-2013 19:06:44] Can not obtain session lock
+[29-Aug-2013 19:06:44] Can not obtain session lock
+[29-Aug-2013 19:06:45] Can not obtain session lock
+[29-Aug-2013 19:07:28] Can not obtain session lock
+[29-Aug-2013 19:08:01] Can not obtain session lock
+[29-Aug-2013 19:08:17] Can not obtain session lock
+[29-Aug-2013 19:08:17] Can not obtain session lock
+[29-Aug-2013 19:08:17] Can not obtain session lock
+[29-Aug-2013 19:08:17] Can not obtain session lock
+[29-Aug-2013 19:08:17] Can not obtain session lock
+[29-Aug-2013 19:08:17] Can not obtain session lock
+[29-Aug-2013 19:08:17] Can not obtain session lock
+[29-Aug-2013 19:08:20] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:08:20] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:26:23] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:26:23] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:26:28] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:26:28] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:26:33] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:26:33] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:27:50] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:27:50] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:03] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:03] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:06] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:06] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:09] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:09] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:11] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:11] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:15] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:15] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:18] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:18] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:22] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:22] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:26] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:26] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:28] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:28] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:30] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:30] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:34] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:34] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:55] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:55] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:29:19] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:29:19] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:32:02] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:32:02] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:32:03] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:32:03] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:32:05] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:32:05] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:32:09] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:32:09] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:03:51] AJAX rest.php: Bad course module ID 181294
+[29-Aug-2013 20:26:07] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:07] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:11] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:11] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:27] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:27] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:58] Default exception handler: Error reading from database Debug: Table 'moodle_2013-2014.mdl_course' doesn't exist
+SELECT * FROM mdl_course WHERE id = ?
+[array (
+  0 => 807,
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1305 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1285 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 34 of \course\view.php: call to moodle_database->get_record()
+
+[29-Aug-2013 20:26:58] Default exception handler: Error reading from database Debug: Table 'moodle_2013-2014.mdl_course' doesn't exist
+SELECT * FROM mdl_course WHERE id = ?
+[array (
+  0 => 384,
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1305 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1285 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 34 of \course\view.php: call to moodle_database->get_record()
+
+[29-Aug-2013 20:27:03] Default exception handler: Error reading from database Debug: Table 'moodle_2013-2014.mdl_context' doesn't exist
+SELECT * FROM mdl_context WHERE contextlevel = ? AND instanceid = ?
+[array (
+  0 => 50,
+  1 => 1,
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1305 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1285 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 6183 of \lib\accesslib.php: call to moodle_database->get_record()
+* line 6807 of \lib\accesslib.php: call to context_course::instance()
+* line 759 of \lib\pagelib.php: call to get_context_instance()
+* line 956 of \lib\pagelib.php: call to moodle_page->set_course()
+* line 26 of \course\category.php: call to moodle_page->set_category_by_id()
+
+[29-Aug-2013 20:27:22] Default exception handler: Error reading from database Debug: Table 'moodle_2013-2014.mdl_context' doesn't exist
+SELECT * FROM mdl_context WHERE contextlevel = ? AND instanceid = ?
+[array (
+  0 => 50,
+  1 => 1,
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1305 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1285 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 6183 of \lib\accesslib.php: call to moodle_database->get_record()
+* line 6807 of \lib\accesslib.php: call to context_course::instance()
+* line 759 of \lib\pagelib.php: call to get_context_instance()
+* line 956 of \lib\pagelib.php: call to moodle_page->set_course()
+* line 26 of \course\category.php: call to moodle_page->set_category_by_id()
+
+[29-Aug-2013 20:29:08] Default exception handler: Fehler beim Lesen der Datenbank Debug: Table 'moodle_2013-2014.mdl_course' doesn't exist
+SELECT * FROM mdl_course WHERE id = ?
+[array (
+  0 => 63,
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1305 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1285 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 34 of \course\view.php: call to moodle_database->get_record()
+
+[29-Aug-2013 23:05:45] AJAX commands.php: Bad course module ID 131688
+[29-Aug-2013 23:05:58] AJAX rest.php: Bad course module ID 131688
+[30-Aug-2013 16:16:53] AJAX rest.php: Bad course module ID 73826
+[30-Aug-2013 16:21:37] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[30-Aug-2013 16:21:37] PHP Fatal error:  Out of memory (allocated 5242880) (tried to allocate 6144 bytes) in D:\server\moodle\lib\dml\moodle_database.php on line 1875
+[30-Aug-2013 16:21:37] PHP Fatal error:  Out of memory (allocated 3407872) (tried to allocate 24576 bytes) in D:\server\moodle\lib\outputrequirementslib.php on line 299
+[30-Aug-2013 16:21:38] PHP Fatal error:  Out of memory (allocated 2621440) (tried to allocate 24576 bytes) in D:\server\moodle\lib\outputactions.php on line 155
+[30-Aug-2013 16:21:38] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 98304 bytes) in D:\server\moodle\lib\messagelib.php on line 170
+[30-Aug-2013 16:21:52] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 24576 bytes) in D:\server\moodle\lib\accesslib.php on line 4445
+[30-Aug-2013 16:21:52] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 24576 bytes) in D:\server\moodle\lib\navigationlib.php on line 1670
+[30-Aug-2013 16:22:14] PHP Fatal error:  Out of memory (allocated 11010048) (tried to allocate 24576 bytes) in D:\server\moodle\lib\sessionlib.php on line 188
+[30-Aug-2013 16:22:30] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[30-Aug-2013 16:43:48] AJAX rest.php: Bad course module ID 23739
+[30-Aug-2013 18:07:38] AJAX rest.php: Bad course module ID 74717
+[30-Aug-2013 18:07:52] PHP Fatal error:  Out of memory (allocated 10747904) (tried to allocate 24576 bytes) in D:\server\moodle\lib\blocklib.php on line 2102
+[30-Aug-2013 18:08:15] AJAX rest.php: Bad course module ID 74729
+[30-Aug-2013 18:08:45] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 98304 bytes) in D:\server\moodle\lib\datalib.php on line 804
+[30-Aug-2013 18:09:18] AJAX rest.php: Bad course module ID 74738
+[31-Aug-2013 00:50:00] Can not obtain session lock
+[31-Aug-2013 00:50:15] Can not obtain session lock
+[31-Aug-2013 00:50:23] Can not obtain session lock
+[31-Aug-2013 17:38:53] AJAX rest.php: Bad course module ID 76594
+[31-Aug-2013 17:39:08] AJAX rest.php: Bad course module ID 76596
+[31-Aug-2013 17:39:11] AJAX rest.php: Bad course module ID 76599
+[31-Aug-2013 18:23:23] AJAX rest.php: Bad course module ID 225312
+[31-Aug-2013 19:04:06] AJAX commands.php: Bad course module ID 0
+[01-Sep-2013 00:28:38] AJAX rest.php: Bad course module ID 23745
+[02-Sep-2013 03:01:49] AJAX rest.php: Bad course module ID 49102
+[02-Sep-2013 03:03:41] AJAX commands.php: Bad course module ID 49102
+[02-Sep-2013 03:04:26] AJAX commands.php: Bad course module ID 49102
+[02-Sep-2013 03:04:29] AJAX commands.php: Bad course module ID 49102
+[02-Sep-2013 03:04:31] AJAX commands.php: Bad course module ID 49102
+[02-Sep-2013 18:57:36] AJAX rest.php: Bad course module ID 75171
+[02-Sep-2013 21:01:11] AJAX rest.php: Bad course module ID 226268
+[02-Sep-2013 21:41:23] Can not obtain session lock
+[02-Sep-2013 21:41:27] Can not obtain session lock
+[02-Sep-2013 22:02:38] AJAX rest.php: Bad course module ID 226269
+[02-Sep-2013 23:36:20] AJAX rest.php: Bad course module ID 226305
+[03-Sep-2013 00:32:42] AJAX rest.php: Bad course module ID 166115
+[03-Sep-2013 01:14:03] AJAX rest.php: Bad course module ID 89153
+[03-Sep-2013 02:53:05] AJAX commands.php: Bad course module ID 167658
+[03-Sep-2013 02:53:16] AJAX rest.php: Bad course module ID 167659
+[03-Sep-2013 02:58:21] AJAX rest.php: Bad course module ID 167655
+[03-Sep-2013 03:45:16] AJAX rest.php: Bad course module ID 49131
+[03-Sep-2013 03:46:34] AJAX rest.php: Bad course module ID 189068
+[03-Sep-2013 06:55:16] AJAX rest.php: Bad course module ID 198900
+[03-Sep-2013 06:55:20] AJAX rest.php: Bad course module ID 198899
+[03-Sep-2013 06:55:44] AJAX rest.php: Bad course module ID 198902
+[03-Sep-2013 06:55:49] AJAX rest.php: Bad course module ID 198900
+[03-Sep-2013 06:55:53] AJAX rest.php: Bad course module ID 198899
+[03-Sep-2013 16:57:34] AJAX rest.php: Bad course module ID 89203
+[03-Sep-2013 16:59:34] AJAX rest.php: Bad course module ID 89250
+[03-Sep-2013 17:01:01] AJAX rest.php: Bad course module ID 181335
+[03-Sep-2013 17:03:13] AJAX rest.php: Bad course module ID 181344
+[03-Sep-2013 17:59:43] AJAX rest.php: Bad course module ID 89336
+[03-Sep-2013 18:03:09] AJAX rest.php: Bad course module ID 89396
+[03-Sep-2013 18:07:27] AJAX rest.php: Bad course module ID 89451
+[03-Sep-2013 19:18:34] AJAX rest.php: Bad course module ID 228249
+[04-Sep-2013 05:47:21] AJAX rest.php: Bad course module ID 83595
+[06-Sep-2013 02:04:57] AJAX rest.php: Bad course module ID 234160
+[06-Sep-2013 02:05:01] AJAX rest.php: Bad course module ID 234157
+[09-Sep-2013 00:55:44] AJAX rest.php: Bad course module ID 237062
+[09-Sep-2013 03:30:25] AJAX rest.php: Bad course module ID 167853
+[09-Sep-2013 03:38:24] AJAX rest.php: Bad course module ID 49171
+[09-Sep-2013 03:38:30] AJAX rest.php: Bad course module ID 49172
+[09-Sep-2013 03:42:40] AJAX rest.php: Bad course module ID 49177
+[09-Sep-2013 03:42:51] AJAX rest.php: Bad course module ID 49182
+[09-Sep-2013 03:43:00] AJAX rest.php: Bad course module ID 49180
+[09-Sep-2013 20:27:58] AJAX rest.php: Bad course module ID 72938
+[09-Sep-2013 22:16:51] AJAX rest.php: Bad course module ID 82034
+[10-Sep-2013 01:37:46] AJAX rest.php: Bad course module ID 83597
+[10-Sep-2013 01:37:52] AJAX rest.php: Bad course module ID 83598
+[10-Sep-2013 01:37:57] AJAX rest.php: Bad course module ID 83599
+[10-Sep-2013 04:19:54] Can not obtain session lock
+[10-Sep-2013 04:25:11] Can not obtain session lock
+[10-Sep-2013 15:48:20] AJAX rest.php: Bad course module ID 72932
+[10-Sep-2013 19:00:57] AJAX rest.php: Bad course module ID 238376
+[10-Sep-2013 19:00:57] AJAX rest.php: Bad course module ID 238375
+[10-Sep-2013 19:00:57] AJAX rest.php: Bad course module ID 238374
+[10-Sep-2013 20:09:30] AJAX rest.php: Bad course module ID 21522
+[10-Sep-2013 20:18:42] AJAX rest.php: Bad course module ID 21522
+[10-Sep-2013 20:18:45] AJAX rest.php: Bad course module ID 21524
+[11-Sep-2013 14:03:37] AJAX rest.php: Bad course module ID 114536
+[11-Sep-2013 14:28:20] AJAX rest.php: Bad course module ID 233413
+[11-Sep-2013 14:40:49] AJAX rest.php: Bad course module ID 207912
+[11-Sep-2013 14:43:59] AJAX rest.php: Bad course module ID 239346
+[11-Sep-2013 16:49:54] AJAX rest.php: Bad course module ID 239383
+[11-Sep-2013 16:49:57] AJAX rest.php: Bad course module ID 239382
+[11-Sep-2013 18:12:36] AJAX rest.php: Bad course module ID 228892
+[12-Sep-2013 16:24:17] AJAX rest.php: Bad course module ID 83089
+[12-Sep-2013 17:33:44] AJAX rest.php: Bad course module ID 83116
+[12-Sep-2013 20:16:55] AJAX rest.php: Bad course module ID 207946
+[13-Sep-2013 14:51:59] AJAX rest.php: Bad course module ID 195178
+[13-Sep-2013 15:18:50] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 6144 bytes) in D:\server\moodle\lib\deprecatedlib.php on line 2142
+[13-Sep-2013 15:18:50] PHP Fatal error:  Out of memory (allocated 10747904) (tried to allocate 24576 bytes) in D:\server\moodle\lib\blocklib.php on line 2102
+[13-Sep-2013 15:18:50] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 262144 bytes) in D:\server\moodle\lib\setup.php on line 444
+[13-Sep-2013 16:01:47] AJAX rest.php: Bad course module ID 2572
+[13-Sep-2013 16:07:19] AJAX commands.php: Bad course module ID 72954
+[13-Sep-2013 17:20:56] AJAX rest.php: Bad course module ID 22811
+[15-Sep-2013 21:12:32] AJAX rest.php: Bad course module ID 9677
+[16-Sep-2013 03:35:39] AJAX rest.php: Bad course module ID 167826
+[16-Sep-2013 03:51:40] AJAX rest.php: Bad course module ID 83617
+[16-Sep-2013 14:15:49] AJAX rest.php: Bad course module ID 21410
+[16-Sep-2013 19:48:07] AJAX rest.php: Bad course module ID 213929
+[16-Sep-2013 21:37:13] AJAX commands.php: Bad course module ID 0
+[16-Sep-2013 21:37:14] AJAX commands.php: Bad course module ID 0
+[16-Sep-2013 21:37:14] AJAX commands.php: Bad course module ID 0
+[16-Sep-2013 21:37:14] AJAX commands.php: Bad course module ID 0
+[16-Sep-2013 21:37:14] AJAX commands.php: Bad course module ID 0
+[16-Sep-2013 21:39:46] AJAX rest.php: Bad course module ID 10449
+[17-Sep-2013 16:19:53] Can not obtain session lock
+[17-Sep-2013 16:20:09] Can not obtain session lock
+[17-Sep-2013 17:30:28] AJAX rest.php: Bad course module ID 20251
+[17-Sep-2013 18:22:12] AJAX rest.php: Bad course module ID 243022
+[17-Sep-2013 18:22:17] AJAX rest.php: Bad course module ID 243020
+[17-Sep-2013 18:22:19] AJAX rest.php: Bad course module ID 243019
+[17-Sep-2013 18:53:05] AJAX commands.php: Bad course module ID 233470
+[17-Sep-2013 19:02:47] AJAX rest.php: Bad course module ID 239217
+[18-Sep-2013 00:25:39] AJAX rest.php: Bad course module ID 236954
+[18-Sep-2013 00:28:08] AJAX rest.php: Bad course module ID 78479
+[18-Sep-2013 01:44:13] Can not obtain session lock
+[18-Sep-2013 01:44:54] Can not obtain session lock
+[18-Sep-2013 01:45:52] Can not obtain session lock
+[18-Sep-2013 01:45:55] Can not obtain session lock
+[18-Sep-2013 01:46:00] Can not obtain session lock
+[18-Sep-2013 01:46:26] Can not obtain session lock
+[18-Sep-2013 01:46:31] Can not obtain session lock
+[18-Sep-2013 17:51:27] AJAX rest.php: Bad course module ID 21438
+[18-Sep-2013 17:52:53] AJAX rest.php: Bad course module ID 21436
+[18-Sep-2013 19:56:23] AJAX rest.php: Bad course module ID 21443
+[19-Sep-2013 14:55:37] AJAX rest.php: Bad course module ID 23784
+[19-Sep-2013 15:51:11] AJAX rest.php: Bad course module ID 244720
+[19-Sep-2013 16:08:38] AJAX rest.php: Bad course module ID 244741
+[19-Sep-2013 16:41:07] Can not obtain session lock
+[19-Sep-2013 17:03:38] AJAX rest.php: Bad course module ID 244740
+[19-Sep-2013 17:19:32] AJAX rest.php: Bad course module ID 244751
+[19-Sep-2013 17:19:34] AJAX rest.php: Bad course module ID 244754
+[19-Sep-2013 18:53:10] AJAX rest.php: Bad course module ID 35984
+[19-Sep-2013 19:09:45] PHP Fatal error:  Out of memory (allocated 7602176) (tried to allocate 6144 bytes) in D:\server\moodle\lib\deprecatedlib.php on line 3997
+[19-Sep-2013 19:09:46] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 98304 bytes) in D:\server\moodle\lib\moodlelib.php on line 2682
+[19-Sep-2013 20:28:48] AJAX rest.php: Bad course module ID 244955
+[19-Sep-2013 20:28:50] AJAX rest.php: Bad course module ID 244956
+[19-Sep-2013 22:23:01] Can not obtain session lock

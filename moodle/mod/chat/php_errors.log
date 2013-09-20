@@ -1,0 +1,23 @@
+[02-Oct-2012 15:23:48] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 31 of \mod\chat\chat_ajax.php: moodle_exception thrown
+
+[02-Oct-2012 15:23:52] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 31 of \mod\chat\chat_ajax.php: moodle_exception thrown
+
+[03-Oct-2012 00:09:08] Default exception handler: You are not logged in! Debug: 
+* line 35 of \mod\chat\chat_ajax.php: moodle_exception thrown
+
+[04-Oct-2012 01:27:49] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 31 of \mod\chat\chat_ajax.php: moodle_exception thrown
+
+[04-Oct-2012 01:27:50] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 31 of \mod\chat\chat_ajax.php: moodle_exception thrown
+
+[04-Oct-2012 02:03:40] Default exception handler: You are not logged in! Debug: 
+* line 35 of \mod\chat\chat_ajax.php: moodle_exception thrown
+
+[04-Oct-2012 02:05:46] Default exception handler: A required parameter (chat_sid) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 24 of \mod\chat\chat_ajax.php: call to required_param()
+

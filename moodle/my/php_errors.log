@@ -1,0 +1,815 @@
+[02-Oct-2012 13:34:00] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[02-Oct-2012 20:36:28] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[02-Oct-2012 20:45:03] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[02-Oct-2012 20:45:07] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[02-Oct-2012 20:45:21] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[02-Oct-2012 20:54:18] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[02-Oct-2012 20:54:22] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[02-Oct-2012 22:26:57] Default exception handler: Error writing to database Debug: Duplicate entry '30-55710' for key 'mdl_cont_conins_uix'
+INSERT INTO mdl_context (contextlevel,instanceid,depth,path) VALUES(?,?,?,?)
+[array (
+  0 => 30,
+  1 => '55710',
+  2 => 0,
+  3 => NULL,
+)]
+* line 397 of \lib\dml\moodle_database.php: dml_write_exception thrown
+* line 893 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 935 of \lib\dml\mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 4959 of \lib\accesslib.php: call to mysqli_native_moodle_database->insert_record()
+* line 5784 of \lib\accesslib.php: call to context::insert_context_record()
+* line 303 of \lib\outputcomponents.php: call to context_user::instance()
+* line 1816 of \lib\outputrenderers.php: call to user_picture->get_url()
+* line 70 of \lib\outputrenderers.php: call to core_renderer->render_user_picture()
+* line 1779 of \lib\outputrenderers.php: call to renderer_base->render()
+* line 148 of \blocks\online_users\block_online_users.php: call to core_renderer->user_picture()
+* line 280 of \blocks\moodleblock.class.php: call to block_online_users->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 349 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 10 of \theme\formal_white\layout\general.php: call to block_manager->region_has_content()
+* line 685 of \lib\outputrenderers.php: call to include()
+* line 637 of \lib\outputrenderers.php: call to core_renderer->render_page_layout()
+* line ? of unknownfile: call to core_renderer->header()
+* line 1353 of \lib\setuplib.php: call to call_user_func_array()
+* line 146 of \my\index.php: call to bootstrap_renderer->__call()
+* line 146 of \my\index.php: call to bootstrap_renderer->header()
+
+[03-Oct-2012 02:14:25] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 02:14:29] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 02:14:49] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 02:17:17] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 02:40:27] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 03:17:34] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 03:17:44] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 03:18:11] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 03:18:13] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 15:40:28] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 18:15:51] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 20:00:20] Default exception handler: This block (id=8465) does not exist on this page (http://moodle.wiueacademy.org/my/index.php). Debug: 
+* line 803 of \lib\blocklib.php: block_not_on_page_exception thrown
+* line 1115 of \lib\blocklib.php: call to block_manager->find_instance()
+* line 1070 of \lib\blocklib.php: call to block_manager->process_url_delete()
+* line 1208 of \lib\pagelib.php: call to block_manager->process_url_actions()
+* line 720 of \lib\pagelib.php: call to moodle_page->starting_output()
+* line 632 of \lib\outputrenderers.php: call to moodle_page->set_state()
+* line 146 of \my\index.php: call to core_renderer->header()
+
+[03-Oct-2012 20:38:03] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[03-Oct-2012 22:06:10] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[04-Oct-2012 00:21:56] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[04-Oct-2012 15:56:13] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[05-Oct-2012 20:45:38] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[08-Oct-2012 02:18:05] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[08-Oct-2012 02:18:09] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[08-Oct-2012 04:47:04] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[08-Oct-2012 15:23:25] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[08-Oct-2012 15:45:04] PHP Fatal error:  Out of memory (allocated 29884416) (tried to allocate 393216 bytes) in D:\server\moodle\mod\assignment\lib.php on line 1538
+[08-Oct-2012 15:45:15] PHP Fatal error:  Out of memory (allocated 13893632) (tried to allocate 393216 bytes) in D:\server\moodle\lib\filelib.php on line 3551
+[08-Oct-2012 16:02:55] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[08-Oct-2012 16:03:04] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[08-Oct-2012 16:04:19] Default exception handler: Error writing to database Debug: Duplicate entry '30-63035' for key 'mdl_cont_conins_uix'
+INSERT INTO mdl_context (contextlevel,instanceid,depth,path) VALUES(?,?,?,?)
+[array (
+  0 => 30,
+  1 => '63035',
+  2 => 0,
+  3 => NULL,
+)]
+* line 397 of \lib\dml\moodle_database.php: dml_write_exception thrown
+* line 893 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 935 of \lib\dml\mysqli_native_moodle_database.php: call to mysqli_native_moodle_database->insert_record_raw()
+* line 4959 of \lib\accesslib.php: call to mysqli_native_moodle_database->insert_record()
+* line 5784 of \lib\accesslib.php: call to context::insert_context_record()
+* line 303 of \lib\outputcomponents.php: call to context_user::instance()
+* line 1816 of \lib\outputrenderers.php: call to user_picture->get_url()
+* line 70 of \lib\outputrenderers.php: call to core_renderer->render_user_picture()
+* line 1779 of \lib\outputrenderers.php: call to renderer_base->render()
+* line 148 of \blocks\online_users\block_online_users.php: call to core_renderer->user_picture()
+* line 280 of \blocks\moodleblock.class.php: call to block_online_users->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 349 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 10 of \theme\formal_white\layout\general.php: call to block_manager->region_has_content()
+* line 685 of \lib\outputrenderers.php: call to include()
+* line 637 of \lib\outputrenderers.php: call to core_renderer->render_page_layout()
+* line ? of unknownfile: call to core_renderer->header()
+* line 1353 of \lib\setuplib.php: call to call_user_func_array()
+* line 146 of \my\index.php: call to bootstrap_renderer->__call()
+* line 146 of \my\index.php: call to bootstrap_renderer->header()
+
+[08-Oct-2012 16:29:54] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 393216 bytes) in D:\server\moodledata_running\cache\lang\en_us\core.php on line 1202
+[08-Oct-2012 16:31:13] PHP Fatal error:  Out of memory (allocated 28049408) (tried to allocate 393216 bytes) in D:\server\moodle\admin\settings\server.php on line 155
+[08-Oct-2012 17:17:35] PHP Fatal error:  Out of memory (allocated 21233664) (tried to allocate 393216 bytes) in D:\server\moodle\blog\lib.php on line 898
+[08-Oct-2012 17:21:41] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[08-Oct-2012 18:17:13] Default exception handler: Coding error detected, it must be fixed by a programmer: PHP catchable fatal error Debug: Argument 2 passed to has_capability() must be an instance of context, boolean given, called in D:\server\moodle\lib\modinfolib.php on line 998 and defined
+* line 365 of \lib\setuplib.php: coding_exception thrown
+* line 348 of \lib\accesslib.php: call to default_error_handler()
+* line 998 of \lib\modinfolib.php: call to has_capability()
+* line 980 of \lib\modinfolib.php: call to cm_info->update_user_visible()
+* line 272 of \lib\modinfolib.php: call to cm_info->obtain_dynamic_data()
+* line 1103 of \lib\modinfolib.php: call to course_modinfo->__construct()
+* line 1671 of \lib\datalib.php: call to get_fast_modinfo()
+* line 3631 of \mod\assignment\lib.php: call to get_all_instances_in_courses()
+* line 175 of \blocks\course_overview_plus\block_course_overview_plus.php: call to assignment_print_overview()
+* line 280 of \blocks\moodleblock.class.php: call to block_course_overview_plus->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[02-Nov-2012 13:18:35] Default exception handler: This block (id=8633) does not exist on this page (http://moodle.wiueacademy.org/my/index.php). Debug: 
+* line 803 of \lib\blocklib.php: block_not_on_page_exception thrown
+* line 1115 of \lib\blocklib.php: call to block_manager->find_instance()
+* line 1070 of \lib\blocklib.php: call to block_manager->process_url_delete()
+* line 1208 of \lib\pagelib.php: call to block_manager->process_url_actions()
+* line 720 of \lib\pagelib.php: call to moodle_page->starting_output()
+* line 632 of \lib\outputrenderers.php: call to moodle_page->set_state()
+* line 146 of \my\index.php: call to core_renderer->header()
+
+[15-Nov-2012 20:11:33] Default exception handler: get_recordset_sql() not available anymore Debug: error() is a deprecated function, please call print_error() instead of error()
+* line 831 of \lib\deprecatedlib.php: moodle_exception thrown
+* line 1333 of \lib\deprecatedlib.php: call to error()
+* line 48 of \blocks\grade_me\block_grade_me.php: call to get_recordset_sql()
+* line 280 of \blocks\moodleblock.class.php: call to block_grade_me->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 349 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 10 of \theme\formal_white\layout\general.php: call to block_manager->region_has_content()
+* line 685 of \lib\outputrenderers.php: call to include()
+* line 637 of \lib\outputrenderers.php: call to core_renderer->render_page_layout()
+* line 146 of \my\index.php: call to core_renderer->header()
+
+[15-Nov-2012 20:11:41] Default exception handler: get_recordset_sql() not available anymore Debug: error() is a deprecated function, please call print_error() instead of error()
+* line 831 of \lib\deprecatedlib.php: moodle_exception thrown
+* line 1333 of \lib\deprecatedlib.php: call to error()
+* line 48 of \blocks\grade_me\block_grade_me.php: call to get_recordset_sql()
+* line 280 of \blocks\moodleblock.class.php: call to block_grade_me->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 349 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 10 of \theme\formal_white\layout\general.php: call to block_manager->region_has_content()
+* line 685 of \lib\outputrenderers.php: call to include()
+* line 637 of \lib\outputrenderers.php: call to core_renderer->render_page_layout()
+* line 146 of \my\index.php: call to core_renderer->header()
+
+[15-Nov-2012 20:12:00] Default exception handler: get_recordset_sql() not available anymore Debug: error() is a deprecated function, please call print_error() instead of error()
+* line 831 of \lib\deprecatedlib.php: moodle_exception thrown
+* line 1333 of \lib\deprecatedlib.php: call to error()
+* line 48 of \blocks\grade_me\block_grade_me.php: call to get_recordset_sql()
+* line 280 of \blocks\moodleblock.class.php: call to block_grade_me->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 349 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 10 of \theme\formal_white\layout\general.php: call to block_manager->region_has_content()
+* line 685 of \lib\outputrenderers.php: call to include()
+* line 637 of \lib\outputrenderers.php: call to core_renderer->render_page_layout()
+* line 146 of \my\index.php: call to core_renderer->header()
+
+[15-Nov-2012 20:12:13] Default exception handler: get_recordset_sql() not available anymore Debug: error() is a deprecated function, please call print_error() instead of error()
+* line 831 of \lib\deprecatedlib.php: moodle_exception thrown
+* line 1333 of \lib\deprecatedlib.php: call to error()
+* line 48 of \blocks\grade_me\block_grade_me.php: call to get_recordset_sql()
+* line 280 of \blocks\moodleblock.class.php: call to block_grade_me->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 349 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 10 of \theme\formal_white\layout\general.php: call to block_manager->region_has_content()
+* line 685 of \lib\outputrenderers.php: call to include()
+* line 637 of \lib\outputrenderers.php: call to core_renderer->render_page_layout()
+* line 146 of \my\index.php: call to core_renderer->header()
+
+[15-Nov-2012 20:13:12] Default exception handler: get_recordset_sql() not available anymore Debug: error() is a deprecated function, please call print_error() instead of error()
+* line 831 of \lib\deprecatedlib.php: moodle_exception thrown
+* line 1333 of \lib\deprecatedlib.php: call to error()
+* line 48 of \blocks\grade_me\block_grade_me.php: call to get_recordset_sql()
+* line 280 of \blocks\moodleblock.class.php: call to block_grade_me->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 349 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 10 of \theme\formal_white\layout\general.php: call to block_manager->region_has_content()
+* line 685 of \lib\outputrenderers.php: call to include()
+* line 637 of \lib\outputrenderers.php: call to core_renderer->render_page_layout()
+* line 146 of \my\index.php: call to core_renderer->header()
+
+[15-Nov-2012 20:14:21] Default exception handler: get_recordset_sql() not available anymore Debug: error() is a deprecated function, please call print_error() instead of error()
+* line 831 of \lib\deprecatedlib.php: moodle_exception thrown
+* line 1333 of \lib\deprecatedlib.php: call to error()
+* line 48 of \blocks\grade_me\block_grade_me.php: call to get_recordset_sql()
+* line 280 of \blocks\moodleblock.class.php: call to block_grade_me->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_base->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 349 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 10 of \theme\formal_white\layout\general.php: call to block_manager->region_has_content()
+* line 685 of \lib\outputrenderers.php: call to include()
+* line 637 of \lib\outputrenderers.php: call to core_renderer->render_page_layout()
+* line 146 of \my\index.php: call to core_renderer->header()
+
+[11-Mar-2013 14:48:54] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (42000/1049): Unknown database 'moodle_2013-2014' in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[11-Mar-2013 14:49:01] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (42000/1049): Unknown database 'moodle_2013-2014' in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[20-Jun-2013 16:00:35] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:00:35] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:00:35] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 16:03:59] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:03:59] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:03:59] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 16:56:32] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:56:32] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:56:32] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 16:56:50] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:56:50] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:56:50] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 16:57:06] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:57:06] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 16:57:06] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 17:01:13] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 17:01:13] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 17:01:13] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 17:26:02] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 17:26:02] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 17:26:02] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 17:28:57] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 17:28:57] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 17:28:57] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 18:02:13] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 18:02:13] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 18:02:13] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 18:06:39] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 18:06:39] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 18:06:39] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[20-Jun-2013 18:08:35] PHP Notice:  Undefined variable: user_id_db in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 18:08:35] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in D:\server\moodle\lib\datalib.php on line 998
+[20-Jun-2013 18:08:35] PHP Notice:  Undefined variable: isadmin in D:\server\moodle\blocks\course_list\block_course_list.php on line 58
+[27-Aug-2013 17:23:29] Default exception handler: Error reading from database Debug: Table 'moodle_2013-2014.mdl_course_group' doesn't exist
+SELECT cc.* , ctx.id AS ctxid, ctx.path AS ctxpath, ctx.depth AS ctxdepth, ctx.contextlevel AS ctxlevel, ctx.instanceid AS ctxinstance
+                  FROM mdl_course_categories cc
+               LEFT JOIN mdl_context ctx ON (ctx.instanceid = cc.id AND ctx.contextlevel = 40)JOIN  mdl_course_group cg ON (cg.course_id = cc.id AND cg.group_id IN(16))
+                 WHERE cc.parent=?
+                 ORDER BY cg.group_id DESC
+[array (
+  0 => '0',
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 768 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1038 of \lib\datalib.php: call to mysqli_native_moodle_database->get_recordset_sql()
+* line 56 of \blocks\course_list\block_course_list.php: call to get_categories()
+* line 690 of \blocks\moodleblock.class.php: call to block_course_list->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_list->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[27-Aug-2013 17:23:32] Default exception handler: Error reading from database Debug: Table 'moodle_2013-2014.mdl_course_group' doesn't exist
+SELECT cc.* , ctx.id AS ctxid, ctx.path AS ctxpath, ctx.depth AS ctxdepth, ctx.contextlevel AS ctxlevel, ctx.instanceid AS ctxinstance
+                  FROM mdl_course_categories cc
+               LEFT JOIN mdl_context ctx ON (ctx.instanceid = cc.id AND ctx.contextlevel = 40)JOIN  mdl_course_group cg ON (cg.course_id = cc.id AND cg.group_id IN(2))
+                 WHERE cc.parent=?
+                 ORDER BY cg.group_id DESC
+[array (
+  0 => '0',
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 768 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1038 of \lib\datalib.php: call to mysqli_native_moodle_database->get_recordset_sql()
+* line 56 of \blocks\course_list\block_course_list.php: call to get_categories()
+* line 690 of \blocks\moodleblock.class.php: call to block_course_list->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_list->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[27-Aug-2013 17:23:33] Default exception handler: Error reading from database Debug: Table 'moodle_2013-2014.mdl_course_group' doesn't exist
+SELECT cc.* , ctx.id AS ctxid, ctx.path AS ctxpath, ctx.depth AS ctxdepth, ctx.contextlevel AS ctxlevel, ctx.instanceid AS ctxinstance
+                  FROM mdl_course_categories cc
+               LEFT JOIN mdl_context ctx ON (ctx.instanceid = cc.id AND ctx.contextlevel = 40)JOIN  mdl_course_group cg ON (cg.course_id = cc.id AND cg.group_id IN(2))
+                 WHERE cc.parent=?
+                 ORDER BY cg.group_id DESC
+[array (
+  0 => '0',
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 768 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1038 of \lib\datalib.php: call to mysqli_native_moodle_database->get_recordset_sql()
+* line 56 of \blocks\course_list\block_course_list.php: call to get_categories()
+* line 690 of \blocks\moodleblock.class.php: call to block_course_list->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_list->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[27-Aug-2013 17:23:36] Default exception handler: Error reading from database Debug: Table 'moodle_2013-2014.mdl_course_group' doesn't exist
+SELECT cc.* , ctx.id AS ctxid, ctx.path AS ctxpath, ctx.depth AS ctxdepth, ctx.contextlevel AS ctxlevel, ctx.instanceid AS ctxinstance
+                  FROM mdl_course_categories cc
+               LEFT JOIN mdl_context ctx ON (ctx.instanceid = cc.id AND ctx.contextlevel = 40)JOIN  mdl_course_group cg ON (cg.course_id = cc.id AND cg.group_id IN(16))
+                 WHERE cc.parent=?
+                 ORDER BY cg.group_id DESC
+[array (
+  0 => '0',
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 768 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1038 of \lib\datalib.php: call to mysqli_native_moodle_database->get_recordset_sql()
+* line 56 of \blocks\course_list\block_course_list.php: call to get_categories()
+* line 690 of \blocks\moodleblock.class.php: call to block_course_list->get_content()
+* line 232 of \blocks\moodleblock.class.php: call to block_list->formatted_contents()
+* line 926 of \lib\blocklib.php: call to block_base->get_content_for_output()
+* line 978 of \lib\blocklib.php: call to block_manager->create_block_contents()
+* line 311 of \lib\blocklib.php: call to block_manager->ensure_content_created()
+* line 957 of \lib\outputrenderers.php: call to block_manager->get_content_for_region()
+* line 148 of \my\index.php: call to core_renderer->blocks_for_region()
+
+[29-Aug-2013 19:08:17] Can not obtain session lock
+[05-Sep-2013 03:05:43] Can not obtain session lock
+[05-Sep-2013 03:06:34] Can not obtain session lock

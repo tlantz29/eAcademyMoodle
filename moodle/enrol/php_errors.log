@@ -1,0 +1,117 @@
+[28-Aug-2012 18:00:42] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 24576 bytes) in D:\server\moodle\lib\accesslib.php on line 3387
+[28-Aug-2012 18:01:27] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 262144 bytes) in D:\server\moodle\lib\setup.php on line 444
+[13-Sep-2012 21:50:48] Can not obtain session lock
+[13-Sep-2012 21:50:56] Can not obtain session lock
+[17-Sep-2012 16:36:30] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[17-Sep-2012 16:37:10] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[17-Sep-2012 16:37:33] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[17-Sep-2012 16:37:33] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:38] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[17-Sep-2012 16:37:38] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:37:53] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[17-Sep-2012 16:37:53] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:18] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[17-Sep-2012 16:38:18] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 16:38:20] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[17-Sep-2012 16:38:20] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[18-Sep-2012 01:00:34] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[02-Oct-2012 15:28:54] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[03-Oct-2012 17:25:15] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 37 of \enrol\ajax.php: call to required_param()
+
+[04-Oct-2012 02:29:06] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[04-Oct-2012 04:50:21] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[08-Oct-2012 14:42:49] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[08-Oct-2012 16:03:21] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[08-Oct-2012 16:03:21] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[08-Oct-2012 16:43:38] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[08-Oct-2012 16:46:56] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[08-Oct-2012 16:47:24] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[08-Oct-2012 16:47:42] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[08-Oct-2012 17:37:01] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[08-Oct-2012 17:39:56] Default exception handler: A required parameter (id) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 30 of \enrol\index.php: call to required_param()
+
+[27-Aug-2013 13:54:19] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 24576 bytes) in D:\server\moodle\lib\moodlelib.php on line 1600
+[29-Aug-2013 19:08:17] Can not obtain session lock
+[29-Aug-2013 20:15:39] Can not obtain session lock
+[30-Aug-2013 16:21:37] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[30-Aug-2013 16:21:37] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[30-Aug-2013 16:21:37] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[30-Aug-2013 16:21:37] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 24576 bytes) in D:\server\moodle\lib\pagelib.php on line 1897
+[30-Aug-2013 16:22:14] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[30-Aug-2013 16:22:30] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[30-Aug-2013 18:07:41] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[30-Aug-2013 18:08:15] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723

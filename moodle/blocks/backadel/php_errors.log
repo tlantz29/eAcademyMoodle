@@ -1,0 +1,4 @@
+[20-Feb-2013 15:09:00] PHP Notice:  Undefined variable: CFG in D:\server\moodle\blocks\backadel\block_backadel.php on line 3
+[20-Feb-2013 15:09:00] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\backadel\block_backadel.php on line 3
+[20-Feb-2013 15:09:00] PHP Warning:  require_once(/blocks/backadel/lib.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in D:\server\moodle\blocks\backadel\block_backadel.php on line 3
+[20-Feb-2013 15:09:00] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/blocks/backadel/lib.php' (include_path='.;D:\server\php\PEAR') in D:\server\moodle\blocks\backadel\block_backadel.php on line 3

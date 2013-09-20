@@ -1,0 +1,1 @@
+[11-Sep-2012 18:31:47] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723

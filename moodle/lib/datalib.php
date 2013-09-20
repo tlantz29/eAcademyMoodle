@@ -989,21 +989,21 @@ function get_categories($parent='none', $sort=NULL, $shallow=true) {
 #---------------------------------------------------sis customisation ---------------------------#
    //To  show the courses only of his own group,fetch group and joined with course_group
    //get user group_id
-    $sql="SELECT g.groupid FROM {groups_members} g WHERE g.userid ='".$USER->id."' ";
-   $group_id_all= $DB->get_records_sql($sql);
+   // $sql="SELECT g.groupid FROM {groups_members} g WHERE g.userid ='".$USER->id."' ";
+   //$group_id_all= $DB->get_records_sql($sql);
 
-    foreach($group_id_all as $group_id=>$value){
-     $user_id_db[]=$group_id;
-    }
-    $groups = implode(",", $user_id_db);
+    //foreach($group_id_all as $group_id=>$value){
+     //$user_id_db[]=$group_id;
+    //}
+    //$groups = implode(",", $user_id_db);
     
     //get user group_id
     //join
- if(trim($groups)!='')
- {  
-     $sort = ' ORDER BY cg.group_id DESC';
-    $ccjoin.="JOIN  {course_group} cg ON (cg.course_id = cc.id AND cg.group_id IN($groups))";
- }
+ //if(trim($groups)!='')
+ //{  
+     //$sort = ' ORDER BY cg.group_id DESC';
+    //$ccjoin.="JOIN  {course_group} cg ON (cg.course_id = cc.id AND cg.group_id IN($groups))";
+ //}
   #---------------------------------------------------sis customisation ---------------------------#
     
     if ($parent === 'none') {

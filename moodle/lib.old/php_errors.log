@@ -1,0 +1,6 @@
+[11-Sep-2012 18:31:49] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[11-Sep-2012 18:31:49] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[11-Sep-2012 18:31:59] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[11-Sep-2012 18:31:59] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[08-Oct-2012 14:35:44] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[08-Oct-2012 15:46:16] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723

@@ -1,0 +1,101 @@
+[13-Sep-2012 19:31:49] Can not obtain session lock
+[13-Sep-2012 19:32:20] Can not obtain session lock
+[13-Sep-2012 19:33:50] Can not obtain session lock
+[13-Sep-2012 19:34:21] Can not obtain session lock
+[17-Sep-2012 20:18:22] Default exception handler: Import error Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 120 of \question\import.php: call to print_error()
+
+[17-Sep-2012 20:22:06] Default exception handler: Import error Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 120 of \question\import.php: call to print_error()
+
+[17-Sep-2012 20:27:10] Default exception handler: Import error Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 120 of \question\import.php: call to print_error()
+
+[17-Sep-2012 22:29:03] Can not obtain session lock
+[17-Sep-2012 22:29:03] Default exception handler: Timed out while waiting for session lock.<br />Wait for your current requests to finish and try again later. Debug: 
+* line 1228 of \lib\dml\mysqli_native_moodle_database.php: dml_sessionwait_exception thrown
+* line 593 of \lib\sessionlib.php: call to mysqli_native_moodle_database->get_session_lock()
+* line ? of unknownfile: call to database_session->handler_read()
+* line 184 of \lib\sessionlib.php: call to session_start()
+* line 473 of \lib\sessionlib.php: call to session_stub->__construct()
+* line 60 of \lib\sessionlib.php: call to database_session->__construct()
+* line 688 of \lib\setup.php: call to session_get_instance()
+* line 27 of \config.php: call to require_once()
+* line 27 of \question\question.php: call to require_once()
+
+[18-Sep-2012 15:26:08] Can not obtain session lock
+[18-Sep-2012 15:29:09] Can not obtain session lock
+[18-Sep-2012 15:35:19] Can not obtain session lock
+[18-Sep-2012 15:37:46] Can not obtain session lock
+[03-Oct-2012 18:50:32] Default exception handler: Import error Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 120 of \question\import.php: call to print_error()
+
+[03-Oct-2012 18:52:22] Default exception handler: Import error Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 120 of \question\import.php: call to print_error()
+
+[03-Oct-2012 19:00:21] Default exception handler: Import error Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 120 of \question\import.php: call to print_error()
+
+[03-Oct-2012 19:00:25] PHP Fatal error:  Call to a member function all() on a non-object in D:\server\moodle\question\editlib.php on line 1649
+[03-Oct-2012 19:29:15] PHP Fatal error:  Call to a member function all() on a non-object in D:\server\moodle\question\editlib.php on line 1649
+[03-Oct-2012 19:29:40] Default exception handler: This question does not exist Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 1316 of \lib\questionlib.php: call to print_error()
+* line 1355 of \lib\questionlib.php: call to question_has_capability_on()
+* line 1494 of \question\editlib.php: call to question_require_capability_on()
+* line 57 of \question\edit.php: call to question_bank_view->process_actions()
+
+[03-Oct-2012 19:29:40] Default exception handler: A required parameter (courseid) was missing Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 494 of \lib\moodlelib.php: call to print_error()
+* line 1586 of \question\editlib.php: call to required_param()
+* line 55 of \question\edit.php: call to question_edit_setup()
+
+[03-Oct-2012 19:40:00] Default exception handler: Import error Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 120 of \question\import.php: call to print_error()
+
+[03-Oct-2012 19:40:04] PHP Fatal error:  Call to a member function all() on a non-object in D:\server\moodle\question\editlib.php on line 1649
+[03-Oct-2012 19:43:19] PHP Fatal error:  Call to a member function all() on a non-object in D:\server\moodle\question\editlib.php on line 1649
+[04-Oct-2012 16:39:51] Default exception handler: Need to provide courseid or cmid to print_question. Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 110 of \question\question.php: call to print_error()
+
+[05-Oct-2012 15:33:17] Default exception handler: Invalid course module ID Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 40 of \question\editlib.php: call to print_error()
+* line 48 of \question\addquestion.php: call to get_module_from_cmid()
+
+[05-Oct-2012 15:33:20] Default exception handler: Invalid course module ID Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 40 of \question\editlib.php: call to print_error()
+* line 48 of \question\addquestion.php: call to get_module_from_cmid()
+
+[05-Oct-2012 16:43:11] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 238 of \lib\formslib.php: call to print_error()
+* line 165 of \lib\formslib.php: call to moodleform->_process_submission()
+* line 80 of \question\type\edit_question_form.php: call to moodleform->moodleform()
+* line 221 of \question\type\questiontypebase.php: call to question_edit_form->__construct()
+* line 197 of \question\question.php: call to question_type->create_editing_form()
+
+[07-Oct-2012 23:57:33] Default exception handler: Import error Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 120 of \question\import.php: call to print_error()
+
+[08-Oct-2012 04:42:48] Default exception handler: Sorry, but you do not currently have permissions to do that (view) Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 1356 of \lib\questionlib.php: call to print_error()
+* line 177 of \question\question.php: call to question_require_capability_on()
+
+[11-Aug-2013 00:33:24] Can not obtain session lock
+[11-Aug-2013 21:33:01] Can not obtain session lock
+[11-Aug-2013 21:35:02] Can not obtain session lock
+[11-Aug-2013 21:37:02] Can not obtain session lock
+[11-Aug-2013 21:39:06] Can not obtain session lock

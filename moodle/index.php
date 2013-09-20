@@ -213,6 +213,7 @@
 
             case FRONTPAGECATEGORYNAMES:
  if($role_id!=5  && $role_id!=3){
+ //if ($isadmin) {
                 echo html_writer::tag('a', get_string('skipa', 'access', moodle_strtolower(get_string('categories'))), array('href'=>'#skipcategories', 'class'=>'skip-block'));
                 echo $OUTPUT->heading(get_string('categories'), 2, 'headingblock header');
                 echo $OUTPUT->box_start('generalbox categorybox');

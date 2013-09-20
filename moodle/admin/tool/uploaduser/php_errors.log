@@ -1,0 +1,5 @@
+[03-Oct-2012 19:43:25] Default exception handler: Error reading temporary file Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 173 of \admin\tool\uploaduser\locallib.php: call to print_error()
+* line 135 of \admin\tool\uploaduser\index.php: call to uu_validate_user_upload_columns()
+

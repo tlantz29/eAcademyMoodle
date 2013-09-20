@@ -1,0 +1,37 @@
+[07-Feb-2013 17:01:28] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN
+[07-Feb-2013 17:01:35] (moodle1) error migrating the resource main file course_files/Section_4example5.ppt
+[14-Feb-2013 14:53:05] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN
+[14-Feb-2013 14:53:57] (moodle1) error migrating the resource main file course_files/$@COURSEVIEWBYID*82@$
+[11-Mar-2013 18:23:51] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN
+[11-Mar-2013 18:23:53] (moodle1) error migrating file course_files/eAcademy_Syllabus.pdf
+[11-Mar-2013 18:23:54] (moodle1) error migrating file course_files/writing/invention_essay_prompt.pdf
+[11-Mar-2013 18:23:54] (moodle1) error migrating file course_files/anne_frank/holocaust_webquest.docx
+[11-Mar-2013 18:23:54] (moodle1) error migrating file course_files/anne_frank/WWII_newspaper_project.pdf
+[02-Apr-2013 17:16:37] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN
+[02-Apr-2013 17:17:03] (moodle1) error migrating the resource main file course_files/ed.voicethread.com/share/1233429/
+[17-Apr-2013 15:39:18] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN
+[17-Apr-2013 15:39:47] (moodle1) error migrating the resource main file course_files/ed.voicethread.com/share/1233429/
+[22-May-2013 19:50:27] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN
+[18-Jun-2013 16:42:18] Can not obtain session lock
+[18-Jun-2013 17:00:08] Can not obtain session lock
+[18-Jun-2013 17:02:35] Can not obtain session lock
+[18-Jun-2013 17:05:45] Can not obtain session lock
+[18-Jun-2013 17:06:21] Can not obtain session lock
+[20-Jun-2013 16:00:14] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 16:10:31] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 16:27:19] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 16:54:42] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 16:57:26] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 16:58:01] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 16:59:15] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 16:59:54] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 17:00:17] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 17:01:53] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 17:03:59] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 17:12:07] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 17:23:27] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 17:26:57] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 18:03:29] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[20-Jun-2013 18:07:44] PHP Notice:  Trying to get property of non-object in D:\server\moodle\blocks\simple_restore\list.php on line 95
+[12-Aug-2013 14:50:39] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN
+[13-Aug-2013 19:14:37] (moodle1) no handler attached /MOODLE_BACKUP/COURSE/BLOCKS/BLOCK/ADMIN

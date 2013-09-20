@@ -1,0 +1,42 @@
+[20-Jun-2013 13:21:01] Can not obtain session lock
+[20-Jul-2013 21:57:25] Can not obtain session lock
+[27-Aug-2013 13:54:47] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 98304 bytes) in D:\server\moodle\lib\navigationlib.php on line 3361
+[27-Aug-2013 19:37:19] Can not read or insert database sessions
+[29-Aug-2013 19:27:13] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:27:13] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:17:30] Can not obtain session lock
+[29-Aug-2013 20:17:37] Can not obtain session lock
+[29-Aug-2013 20:19:32] Can not obtain session lock
+[29-Aug-2013 20:19:56] Can not obtain session lock
+[29-Aug-2013 20:21:18] Can not obtain session lock
+[29-Aug-2013 20:26:31] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:31] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:43] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:43] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:53] Default exception handler: Error reading from database Debug: Table 'moodle_2013-2014.mdl_course_modules' doesn't exist
+SELECT cm.*, m.name, md.name AS modname 
+              FROM mdl_course_modules cm
+                   JOIN mdl_modules md ON md.id = cm.module
+                   JOIN mdl_book m ON m.id = cm.instance
+                   
+             WHERE cm.id = ? AND md.name = ?
+                   
+[array (
+  0 => 173994,
+  1 => 'book',
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 39 of \mod\book\view.php: call to get_coursemodule_from_id()
+
+[29-Aug-2013 20:28:27] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:28:27] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:28:46] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:28:46] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296

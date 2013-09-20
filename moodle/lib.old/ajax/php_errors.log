@@ -1,0 +1,94 @@
+[05-Sep-2012 14:09:29] Can not obtain session lock
+[05-Sep-2012 17:14:42] Can not obtain session lock
+[05-Sep-2012 19:09:02] Can not read or insert database sessions
+[09-Sep-2012 16:28:53] Can not obtain session lock
+[15-Sep-2012 00:45:24] Can not obtain session lock
+[17-Sep-2012 18:05:11] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[18-Sep-2012 13:35:44] Can not read or insert database sessions
+[02-Oct-2012 14:45:04] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 14:45:17] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 14:45:47] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:31:56] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:03] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:06] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:07] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:08] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:19] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:20] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:19:54] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:19:59] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:00] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:03] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:04] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:09] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:10] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:14] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:28:14] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 19:43:36] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[08-Oct-2012 14:09:05] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+

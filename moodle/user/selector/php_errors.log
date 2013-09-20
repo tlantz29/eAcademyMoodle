@@ -1,0 +1,61 @@
+[05-Oct-2012 19:22:02] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:04] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:04] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:04] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:05] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:05] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:05] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:05] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:06] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:07] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:13] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:14] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:14] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[05-Oct-2012 19:22:14] Default exception handler: You must be logged in to do this Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 44 of \user\selector\search.php: call to print_error()
+
+[29-Aug-2013 20:25:35] Can not obtain session lock
+[29-Aug-2013 20:25:36] Can not obtain session lock
+[29-Aug-2013 20:25:36] Can not obtain session lock
+[29-Aug-2013 20:25:37] Can not obtain session lock
+[29-Aug-2013 20:25:37] Can not obtain session lock

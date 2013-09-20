@@ -1,0 +1,51 @@
+[18-Sep-2012 14:37:19] Can not obtain session lock
+[18-Sep-2012 14:37:57] Can not obtain session lock
+[18-Sep-2012 14:38:39] Can not obtain session lock
+[20-Jun-2013 16:28:07] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 16:28:07] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 16:40:13] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 16:40:13] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 16:45:51] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 16:45:51] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 16:47:36] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 16:47:36] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 16:51:27] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 16:51:27] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 16:57:04] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 16:57:04] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:02:41] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:02:41] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:08:18] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:08:18] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:13:55] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:13:55] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:19:35] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:19:35] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:25:16] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:25:16] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:30:56] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:30:56] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:36:37] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:36:37] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:42:18] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:42:18] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:45:47] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:45:47] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:47:59] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:47:59] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:53:45] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:53:45] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 17:59:27] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 17:59:27] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 18:01:40] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 18:01:40] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[20-Jun-2013 18:05:12] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 73
+[20-Jun-2013 18:05:12] PHP Notice:  Trying to get property of non-object in D:\server\moodle\calendar\view.php on line 75
+[26-Jun-2013 16:19:16] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 992 of \lib\sessionlib.php: call to print_error()
+* line 44 of \calendar\set.php: call to require_sesskey()
+
+[29-Aug-2013 20:28:18] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:28:18] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296

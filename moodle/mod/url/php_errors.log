@@ -1,0 +1,200 @@
+[11-Sep-2012 18:31:57] PHP Fatal error:  Out of memory (allocated 5242880) (tried to allocate 6144 bytes) in D:\server\moodle\lib\dml\moodle_database.php on line 2271
+[11-Sep-2012 18:32:50] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 98304 bytes) in D:\server\moodle\lib\weblib.php on line 1071
+[11-Sep-2012 18:33:16] PHP Fatal error:  Out of memory (allocated 9437184) (tried to allocate 24576 bytes) in D:\server\moodle\lib\moodlelib.php on line 9616
+[17-Sep-2012 16:41:15] PHP Parse error:  syntax error, unexpected $end, expecting T_FUNCTION in D:\server\moodle\auth\mnet\auth.php on line 1308
+[17-Sep-2012 17:34:04] Can not obtain session lock
+[17-Sep-2012 17:34:04] Default exception handler: Timed out while waiting for session lock.<br />Wait for your current requests to finish and try again later. Debug: 
+* line 1228 of \lib\dml\mysqli_native_moodle_database.php: dml_sessionwait_exception thrown
+* line 593 of \lib\sessionlib.php: call to mysqli_native_moodle_database->get_session_lock()
+* line ? of unknownfile: call to database_session->handler_read()
+* line 184 of \lib\sessionlib.php: call to session_start()
+* line 473 of \lib\sessionlib.php: call to session_stub->__construct()
+* line 60 of \lib\sessionlib.php: call to database_session->__construct()
+* line 688 of \lib\setup.php: call to session_get_instance()
+* line 27 of \config.php: call to require_once()
+* line 27 of \mod\url\view.php: call to require()
+
+[17-Sep-2012 17:34:08] Can not obtain session lock
+[17-Sep-2012 17:34:08] Default exception handler: Timed out while waiting for session lock.<br />Wait for your current requests to finish and try again later. Debug: 
+* line 1228 of \lib\dml\mysqli_native_moodle_database.php: dml_sessionwait_exception thrown
+* line 593 of \lib\sessionlib.php: call to mysqli_native_moodle_database->get_session_lock()
+* line ? of unknownfile: call to database_session->handler_read()
+* line 184 of \lib\sessionlib.php: call to session_start()
+* line 473 of \lib\sessionlib.php: call to session_stub->__construct()
+* line 60 of \lib\sessionlib.php: call to database_session->__construct()
+* line 688 of \lib\setup.php: call to session_get_instance()
+* line 27 of \config.php: call to require_once()
+* line 27 of \mod\url\view.php: call to require()
+
+[03-Oct-2012 20:30:42] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 253412,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[04-Oct-2012 00:25:29] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 257998,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[07-Oct-2012 17:53:53] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 253929,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[08-Oct-2012 16:03:03] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[08-Oct-2012 17:17:35] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[08-Oct-2012 17:17:36] PHP Fatal error:  Out of memory (allocated 16515072) (tried to allocate 393216 bytes) in D:\server\moodle\lang\en\moodle.php on line 619
+[20-Jun-2013 16:02:14] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 139068,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[20-Jun-2013 16:12:10] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 297393,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[20-Jun-2013 16:28:37] Default exception handler: Не удается найти данную запись в базе данных Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 306831,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[20-Jun-2013 16:36:41] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 139068,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[20-Jun-2013 16:44:24] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 297454,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[20-Jun-2013 16:44:33] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 297454,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[20-Jun-2013 17:24:42] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 139068,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[20-Jun-2013 18:02:31] Default exception handler: Can not find data record in database. Debug: SELECT cm.*, m.name, md.name AS modname 
+              FROM {course_modules} cm
+                   JOIN {modules} md ON md.id = cm.module
+                   JOIN {url} m ON m.id = cm.instance
+                   
+             WHERE cm.id = :cmid AND md.name = :modulename
+                   
+[array (
+  'cmid' => 139068,
+  'modulename' => 'url',
+)]
+* line 1336 of \lib\dml\moodle_database.php: dml_missing_record_exception thrown
+* line 1554 of \lib\datalib.php: call to moodle_database->get_record_sql()
+* line 40 of \mod\url\view.php: call to get_coursemodule_from_id()
+
+[29-Aug-2013 19:07:37] Can not obtain session lock
+[29-Aug-2013 20:26:16] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:16] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296

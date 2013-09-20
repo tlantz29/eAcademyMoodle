@@ -1,0 +1,4 @@
+[03-Oct-2012 02:51:23] Default exception handler: You are not allowed to assign this role (id = 3) in this context (System) Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 72 of \admin\roles\assign.php: call to print_error()
+

@@ -1,0 +1,40 @@
+[03-Oct-2012 18:47:26] Default exception handler: Error reading from database Debug: Column 'id' in IN/ALL/ANY subquery is ambiguous
+SELECT COUNT('x') FROM mdl_user u LEFT JOIN mdl_groups_members gm
+                                   ON u.id = gm.userid  WHERE u.id<>? AND u.deleted <> 1  AND email LIKE ? ESCAPE '\\' AND id IN (SELECT userid
+                         FROM mdl_role_assignments a
+                        WHERE a.contextid=1 AND a.roleid=3)
+[array (
+  0 => '1',
+  1 => '%@glsd%',
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1408 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1597 of \lib\dml\moodle_database.php: call to moodle_database->get_field_sql()
+* line 1580 of \lib\dml\moodle_database.php: call to moodle_database->count_records_sql()
+* line 45 of \admin\user\lib.php: call to moodle_database->count_records_select_custom()
+* line 33 of \admin\user\user_bulk.php: call to get_selection_data()
+
+[04-Oct-2012 19:10:53] Default exception handler: Error reading from database Debug: Column 'id' in IN/ALL/ANY subquery is ambiguous
+SELECT COUNT('x') FROM mdl_user u LEFT JOIN mdl_groups_members gm
+                                   ON u.id = gm.userid  WHERE u.id<>? AND u.deleted <> 1  AND email LIKE ? ESCAPE '\\' AND username NOT LIKE ? ESCAPE '\\' AND id IN (SELECT userid
+                               FROM mdl_role_assignments a
+                         INNER JOIN mdl_context b ON a.contextid=b.id
+                         INNER JOIN mdl_course c ON b.instanceid=c.id
+                              WHERE b.contextlevel=50 AND a.roleid = ?)
+[array (
+  0 => '1',
+  1 => '%@hasdpa.net%',
+  2 => '%.%',
+  3 => 5,
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1408 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1597 of \lib\dml\moodle_database.php: call to moodle_database->get_field_sql()
+* line 1580 of \lib\dml\moodle_database.php: call to moodle_database->count_records_sql()
+* line 45 of \admin\user\lib.php: call to moodle_database->count_records_select_custom()
+* line 33 of \admin\user\user_bulk.php: call to get_selection_data()
+

@@ -1,0 +1,144 @@
+[05-Sep-2012 14:09:29] Can not obtain session lock
+[05-Sep-2012 17:14:42] Can not obtain session lock
+[05-Sep-2012 19:09:02] Can not read or insert database sessions
+[09-Sep-2012 16:28:53] Can not obtain session lock
+[15-Sep-2012 00:45:24] Can not obtain session lock
+[17-Sep-2012 18:05:11] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[18-Sep-2012 13:35:44] Can not read or insert database sessions
+[02-Oct-2012 14:45:04] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 14:45:17] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 14:45:47] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:31:56] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:03] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:06] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:07] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:08] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:19] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[02-Oct-2012 15:32:20] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:19:54] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:19:59] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:00] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:03] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:04] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:09] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:10] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:20:14] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 17:28:14] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[05-Oct-2012 19:43:36] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[08-Oct-2012 14:09:05] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[08-Oct-2012 19:05:05] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[08-Oct-2012 22:27:01] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[09-Oct-2012 19:38:35] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[09-Oct-2012 19:38:48] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[09-Oct-2012 19:38:52] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[09-Oct-2012 19:38:53] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[09-Oct-2012 19:38:53] Default exception handler: Incorrect sesskey submitted, form not accepted! Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 39 of \lib\ajax\setuserpref.php: call to print_error()
+
+[09-Oct-2012 20:06:08] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 393216 bytes) in D:\server\moodle\lib\setup.php on line 723
+[09-Oct-2012 22:46:22] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 22:46:27] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 22:46:31] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 22:46:34] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 22:46:35] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 22:46:48] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 22:46:52] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 22:46:59] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 23:16:30] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 23:16:31] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[09-Oct-2012 23:16:39] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (08004/1040): Too many connections in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[26-Oct-2012 15:20:55] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[26-Oct-2012 15:20:55] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[19-Nov-2012 19:46:15] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[19-Nov-2012 19:46:15] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[30-Nov-2012 15:51:46] PHP Fatal error:  Out of memory (allocated 7602176) (tried to allocate 65536 bytes) in D:\server\moodle\lib\setup.php on line 444
+[07-Mar-2013 15:32:26] PHP Fatal error:  Out of memory (allocated 5767168) (tried to allocate 24576 bytes) in D:\server\moodle\lib\accesslib.php on line 745
+[18-Jul-2013 18:22:21] Can not obtain session lock
+[29-Aug-2013 19:28:55] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: [2002] No connection could be made because the target machine actively  (trying to connect via tcp://localhost:3306) in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 19:28:55] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2002): No connection could be made because the target machine actively refused it.
+ in D:\server\moodle\lib\dml\mysqli_native_moodle_database.php on line 296
+[29-Aug-2013 20:26:02] Can not obtain session lock

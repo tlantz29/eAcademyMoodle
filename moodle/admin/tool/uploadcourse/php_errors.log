@@ -1,0 +1,52 @@
+[15-Nov-2012 15:37:59] Default exception handler: Not enough columns, please verify the delimiter setting Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 175 of \admin\tool\uploadcourse\locallib.php: call to print_error()
+* line 110 of \admin\tool\uploadcourse\index.php: call to cc_validate_course_upload_columns()
+
+[15-Nov-2012 16:43:07] Default exception handler: Error reading from database Debug: Table 'moodle_running.mdl_module' doesn't exist
+SELECT * FROM mdl_module WHERE id = ?
+[array (
+  0 => '1',
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1305 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1285 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 4398 of \lib\moodlelib.php: call to moodle_database->get_record()
+* line 4273 of \lib\moodlelib.php: call to remove_course_contents()
+* line 445 of \admin\tool\uploadcourse\index.php: call to delete_course()
+
+[15-Nov-2012 16:51:10] Default exception handler: Error reading from database Debug: Table 'moodle_running.mdl_module' doesn't exist
+SELECT * FROM mdl_module WHERE id = ?
+[array (
+  0 => '1',
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1305 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1285 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 4398 of \lib\moodlelib.php: call to moodle_database->get_record()
+* line 4273 of \lib\moodlelib.php: call to remove_course_contents()
+* line 445 of \admin\tool\uploadcourse\index.php: call to delete_course()
+
+[15-Nov-2012 16:53:38] Default exception handler: Not enough columns, please verify the delimiter setting Debug: 
+* line 435 of \lib\setuplib.php: moodle_exception thrown
+* line 175 of \admin\tool\uploadcourse\locallib.php: call to print_error()
+* line 110 of \admin\tool\uploadcourse\index.php: call to cc_validate_course_upload_columns()
+
+[15-Nov-2012 17:29:59] Default exception handler: Error reading from database Debug: Table 'moodle_running.mdl_module' doesn't exist
+SELECT * FROM mdl_module WHERE id = ?
+[array (
+  0 => '15',
+)]
+* line 394 of \lib\dml\moodle_database.php: dml_read_exception thrown
+* line 809 of \lib\dml\mysqli_native_moodle_database.php: call to moodle_database->query_end()
+* line 1333 of \lib\dml\moodle_database.php: call to mysqli_native_moodle_database->get_records_sql()
+* line 1305 of \lib\dml\moodle_database.php: call to moodle_database->get_record_sql()
+* line 1285 of \lib\dml\moodle_database.php: call to moodle_database->get_record_select()
+* line 4398 of \lib\moodlelib.php: call to moodle_database->get_record()
+* line 4273 of \lib\moodlelib.php: call to remove_course_contents()
+* line 445 of \admin\tool\uploadcourse\index.php: call to delete_course()
+
